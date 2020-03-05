@@ -16,3 +16,6 @@ Power Breakout Board for HP Power Supply
 | J3        |  1  | CONN EDGE DUAL 64POS 0.1 | 1761469-1-ND    |
 | R1        |  1  | RES 120 OHM 1/4W 5%      | CF14JT120RCT-ND |
 | SW1       |  1  | SWITCH SLIDE SPDT        | 679-1849-ND     |
+
+
+![Image of Power Breakout](https://github.com/computergeek1507/KiCad_Designs/raw/master/Power_Breakout/Power_Breakout.png)
