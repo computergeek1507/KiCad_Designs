@@ -1,0 +1,419 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x32_Counter_Clockwise J3
+U 1 1 5E2A385D
+P 6740 3480
+F 0 "J3" H 6790 5197 50  0000 C CNN
+F 1 "PS Conn" H 6790 5106 50  0000 C CNN
+F 2 "TE_1761469-1:TE_1761469-1" H 6740 3480 50  0001 C CNN
+F 3 "~" H 6740 3480 50  0001 C CNN
+	1    6740 3480
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5E2A6BED
+P 7440 4930
+F 0 "R1" H 7510 4976 50  0000 L CNN
+F 1 "110" H 7510 4885 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7370 4930 50  0001 C CNN
+F 3 "~" H 7440 4930 50  0001 C CNN
+	1    7440 4930
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7440 4780 7040 4780
+Wire Wire Line
+	6540 2080 6540 2180
+Connection ~ 6540 2180
+Wire Wire Line
+	6540 2180 6540 2280
+Connection ~ 6540 2280
+Wire Wire Line
+	6540 2280 6540 2380
+Connection ~ 6540 2380
+Wire Wire Line
+	6540 2380 6540 2480
+Connection ~ 6540 2480
+Wire Wire Line
+	6540 2480 6540 2580
+Connection ~ 6540 2580
+Wire Wire Line
+	6540 2580 6540 2680
+Connection ~ 6540 2680
+Wire Wire Line
+	6540 2680 6540 2780
+Connection ~ 6540 2780
+Wire Wire Line
+	6540 2780 6540 2880
+Connection ~ 6540 2880
+Wire Wire Line
+	6540 2880 6540 2980
+Connection ~ 6540 2980
+Wire Wire Line
+	6540 2980 6540 3080
+Connection ~ 6540 3080
+Wire Wire Line
+	6540 3080 6540 3180
+Wire Wire Line
+	7040 3180 7040 3080
+Connection ~ 7040 2080
+Wire Wire Line
+	7040 2080 7040 1980
+Connection ~ 7040 2180
+Wire Wire Line
+	7040 2180 7040 2080
+Connection ~ 7040 2280
+Wire Wire Line
+	7040 2280 7040 2180
+Connection ~ 7040 2380
+Wire Wire Line
+	7040 2380 7040 2280
+Connection ~ 7040 2480
+Wire Wire Line
+	7040 2480 7040 2380
+Connection ~ 7040 2580
+Wire Wire Line
+	7040 2580 7040 2480
+Connection ~ 7040 2680
+Wire Wire Line
+	7040 2680 7040 2580
+Connection ~ 7040 2780
+Wire Wire Line
+	7040 2780 7040 2680
+Connection ~ 7040 2880
+Wire Wire Line
+	7040 2880 7040 2780
+Connection ~ 7040 2980
+Wire Wire Line
+	7040 2980 7040 2880
+Connection ~ 7040 3080
+Wire Wire Line
+	7040 3080 7040 2980
+Wire Wire Line
+	7040 4480 7040 4380
+Connection ~ 7040 3380
+Wire Wire Line
+	7040 3380 7040 3280
+Connection ~ 7040 3480
+Wire Wire Line
+	7040 3480 7040 3380
+Connection ~ 7040 3580
+Wire Wire Line
+	7040 3580 7040 3480
+Connection ~ 7040 3680
+Wire Wire Line
+	7040 3680 7040 3580
+Connection ~ 7040 3780
+Wire Wire Line
+	7040 3780 7040 3680
+Connection ~ 7040 3880
+Wire Wire Line
+	7040 3880 7040 3780
+Connection ~ 7040 3980
+Wire Wire Line
+	7040 3980 7040 3880
+Connection ~ 7040 4080
+Wire Wire Line
+	7040 4080 7040 3980
+Connection ~ 7040 4180
+Wire Wire Line
+	7040 4180 7040 4080
+Connection ~ 7040 4280
+Wire Wire Line
+	7040 4280 7040 4180
+Connection ~ 7040 4380
+Wire Wire Line
+	7040 4380 7040 4280
+Wire Wire Line
+	6540 3280 6540 3380
+Connection ~ 6540 3380
+Wire Wire Line
+	6540 3380 6540 3480
+Connection ~ 6540 3480
+Wire Wire Line
+	6540 3480 6540 3580
+Connection ~ 6540 3580
+Wire Wire Line
+	6540 3580 6540 3680
+Connection ~ 6540 3680
+Wire Wire Line
+	6540 3680 6540 3780
+Connection ~ 6540 3780
+Wire Wire Line
+	6540 3780 6540 3880
+Connection ~ 6540 3880
+Wire Wire Line
+	6540 3880 6540 3980
+Connection ~ 6540 3980
+Wire Wire Line
+	6540 3980 6540 4080
+Connection ~ 6540 4080
+Wire Wire Line
+	6540 4080 6540 4180
+Connection ~ 6540 4180
+Wire Wire Line
+	6540 4180 6540 4280
+Connection ~ 6540 4280
+Wire Wire Line
+	6540 4280 6540 4380
+Connection ~ 6540 4380
+Wire Wire Line
+	6540 4380 6540 4480
+$Comp
+L power:+12V #PWR05
+U 1 1 5E2AACC0
+P 7040 1980
+F 0 "#PWR05" H 7040 1830 50  0001 C CNN
+F 1 "+12V" H 7055 2153 50  0000 C CNN
+F 2 "" H 7040 1980 50  0001 C CNN
+F 3 "" H 7040 1980 50  0001 C CNN
+	1    7040 1980
+	1    0    0    -1  
+$EndComp
+Connection ~ 7040 1980
+$Comp
+L power:+12V #PWR04
+U 1 1 5E2AC3AA
+P 6540 1980
+F 0 "#PWR04" H 6540 1830 50  0001 C CNN
+F 1 "+12V" H 6555 2153 50  0000 C CNN
+F 2 "" H 6540 1980 50  0001 C CNN
+F 3 "" H 6540 1980 50  0001 C CNN
+	1    6540 1980
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6540 2080 6540 1980
+Connection ~ 6540 2080
+Connection ~ 6540 1980
+$Comp
+L power:GND #PWR06
+U 1 1 5E2AE9F1
+P 7150 4480
+F 0 "#PWR06" H 7150 4230 50  0001 C CNN
+F 1 "GND" H 7155 4307 50  0000 C CNN
+F 2 "" H 7150 4480 50  0001 C CNN
+F 3 "" H 7150 4480 50  0001 C CNN
+	1    7150 4480
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5E2AF885
+P 6450 4480
+F 0 "#PWR03" H 6450 4230 50  0001 C CNN
+F 1 "GND" H 6455 4307 50  0000 C CNN
+F 2 "" H 6450 4480 50  0001 C CNN
+F 3 "" H 6450 4480 50  0001 C CNN
+	1    6450 4480
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7040 4480 7150 4480
+Connection ~ 7040 4480
+Wire Wire Line
+	6540 4480 6450 4480
+Connection ~ 6540 4480
+$Comp
+L Connector:Screw_Terminal_01x04 J1
+U 1 1 5E2B30E8
+P 4325 2125
+F 0 "J1" H 4243 2442 50  0000 C CNN
+F 1 "12v Out" H 4610 2060 50  0000 C CNN
+F 2 "Barrier_Blocks:BARRIER_BLOCK_1ROW_4POS_P9.5MM" H 4325 2125 50  0001 C CNN
+F 3 "~" H 4325 2125 50  0001 C CNN
+	1    4325 2125
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x04 J2
+U 1 1 5E2B9153
+P 5045 3245
+F 0 "J2" H 4963 3562 50  0000 C CNN
+F 1 "GND Out" H 4963 3471 50  0000 C CNN
+F 2 "Barrier_Blocks:BARRIER_BLOCK_1ROW_4POS_P9.5MM" H 5045 3245 50  0001 C CNN
+F 3 "~" H 5045 3245 50  0001 C CNN
+	1    5045 3245
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5245 3445 5245 3345
+Connection ~ 5245 3245
+Wire Wire Line
+	5245 3245 5245 3145
+Connection ~ 5245 3345
+Wire Wire Line
+	5245 3345 5245 3245
+$Comp
+L power:+12V #PWR01
+U 1 1 5E2BD502
+P 4875 2025
+F 0 "#PWR01" H 4875 1875 50  0001 C CNN
+F 1 "+12V" H 4890 2198 50  0000 C CNN
+F 2 "" H 4875 2025 50  0001 C CNN
+F 3 "" H 4875 2025 50  0001 C CNN
+	1    4875 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5E2BF52F
+P 5245 3445
+F 0 "#PWR02" H 5245 3195 50  0001 C CNN
+F 1 "GND" H 5250 3272 50  0000 C CNN
+F 2 "" H 5245 3445 50  0001 C CNN
+F 3 "" H 5245 3445 50  0001 C CNN
+	1    5245 3445
+	1    0    0    -1  
+$EndComp
+Connection ~ 5245 3445
+NoConn ~ 7040 4580
+NoConn ~ 7040 4680
+NoConn ~ 7040 4880
+NoConn ~ 7040 4980
+NoConn ~ 6540 4580
+NoConn ~ 6540 4680
+NoConn ~ 6540 4780
+NoConn ~ 6540 4880
+NoConn ~ 6540 4980
+NoConn ~ 6540 5080
+$Comp
+L Device:Fuse_Small F2
+U 1 1 5E3110D8
+P 4775 2125
+F 0 "F2" H 4955 2125 50  0000 C CNN
+F 1 "Fuse_Small" H 5335 2075 50  0001 C CNN
+F 2 "Fuse:Fuseholder_Blade_Mini_Keystone_3568" H 4775 2125 50  0001 C CNN
+F 3 "~" H 4775 2125 50  0001 C CNN
+	1    4775 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse_Small F3
+U 1 1 5E312CC5
+P 4775 2225
+F 0 "F3" H 4950 2215 50  0000 C CNN
+F 1 "Fuse_Small" H 5430 2150 50  0001 C CNN
+F 2 "Fuse:Fuseholder_Blade_Mini_Keystone_3568" H 4775 2225 50  0001 C CNN
+F 3 "~" H 4775 2225 50  0001 C CNN
+	1    4775 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse_Small F4
+U 1 1 5E31491E
+P 4775 2325
+F 0 "F4" H 4955 2325 50  0000 C CNN
+F 1 "Fuse_Small" H 5445 2250 50  0001 C CNN
+F 2 "Fuse:Fuseholder_Blade_Mini_Keystone_3568" H 4775 2325 50  0001 C CNN
+F 3 "~" H 4775 2325 50  0001 C CNN
+	1    4775 2325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4875 2025 4875 2125
+$Comp
+L Device:Fuse_Small F1
+U 1 1 5E30D0FB
+P 4775 2025
+F 0 "F1" H 4950 2020 50  0000 C CNN
+F 1 "Fuse_Small" H 5295 1955 50  0001 C CNN
+F 2 "Fuse:Fuseholder_Blade_Mini_Keystone_3568" H 4775 2025 50  0001 C CNN
+F 3 "~" H 4775 2025 50  0001 C CNN
+	1    4775 2025
+	1    0    0    -1  
+$EndComp
+Connection ~ 4875 2025
+Connection ~ 4875 2125
+Wire Wire Line
+	4875 2125 4875 2225
+Connection ~ 4875 2225
+Wire Wire Line
+	4875 2225 4875 2325
+Wire Wire Line
+	4675 2025 4525 2025
+Wire Wire Line
+	4525 2125 4675 2125
+Wire Wire Line
+	4525 2225 4675 2225
+Wire Wire Line
+	4675 2325 4525 2325
+Text Label 4545 2025 0    50   ~ 0
+V1
+Text Label 4550 2125 0    50   ~ 0
+V2
+Text Label 4550 2225 0    50   ~ 0
+V3
+Text Label 4565 2325 0    50   ~ 0
+V4
+$Comp
+L Device:LED D1
+U 1 1 5E32F65D
+P 5695 1335
+F 0 "D1" H 5700 1460 50  0000 C CNN
+F 1 "Power LED" H 5690 1175 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm_Clear" H 5695 1335 50  0001 C CNN
+F 3 "~" H 5695 1335 50  0001 C CNN
+	1    5695 1335
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5E330B22
+P 5995 1335
+F 0 "R2" V 5788 1335 50  0000 C CNN
+F 1 "1K" V 5879 1335 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5925 1335 50  0001 C CNN
+F 3 "~" H 5995 1335 50  0001 C CNN
+	1    5995 1335
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR07
+U 1 1 5E331E17
+P 5545 1335
+F 0 "#PWR07" H 5545 1185 50  0001 C CNN
+F 1 "+12V" H 5485 1500 50  0000 C CNN
+F 2 "" H 5545 1335 50  0001 C CNN
+F 3 "" H 5545 1335 50  0001 C CNN
+	1    5545 1335
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5E333B40
+P 6145 1335
+F 0 "#PWR08" H 6145 1085 50  0001 C CNN
+F 1 "GND" H 6150 1162 50  0000 C CNN
+F 2 "" H 6145 1335 50  0001 C CNN
+F 3 "" H 6145 1335 50  0001 C CNN
+	1    6145 1335
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW1
+U 1 1 5E6C2B65
+P 7240 5080
+F 0 "SW1" H 7240 5315 50  0000 C CNN
+F 1 "ON" H 7240 5224 50  0000 C CNN
+F 2 "switch:switch_mmp122-r" H 7240 5080 50  0001 C CNN
+F 3 "~" H 7240 5080 50  0001 C CNN
+	1    7240 5080
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
