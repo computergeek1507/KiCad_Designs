@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name dk_USB-DVI-HDMI-Connectors)(type Legacy)(uri D:/KiCad/libraries/digikey/digikey-symbols/dk_USB-DVI-HDMI-Connectors.lib)(options "")(descr ""))
+  (lib (name ESP_Switch-rescue)(type Legacy)(uri ${KIPRJMOD}/ESP_Switch-rescue.lib)(options "")(descr ""))
+)
