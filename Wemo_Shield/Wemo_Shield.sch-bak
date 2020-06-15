@@ -1,0 +1,291 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L wemos_mini:WeMos_D1_mini U1
+U 1 1 5EE2DB99
+P 5890 3330
+F 0 "U1" H 5890 4073 60  0000 C CNN
+F 1 "WeMos_D1_mini" H 5890 3967 60  0000 C CNN
+F 2 "wemos-d1-mini:wemos-d1-mini-connectors-only" H 6440 2630 60  0001 C CNN
+F 3 "http://www.wemos.cc/Products/d1_mini.html" H 5620 4440 60  0001 C CNN
+	1    5890 3330
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J3
+U 1 1 5EE2E44A
+P 7170 3070
+F 0 "J3" H 7250 3062 50  0000 L CNN
+F 1 "Switch In" H 7250 2971 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 7170 3070 50  0001 C CNN
+F 3 "~" H 7170 3070 50  0001 C CNN
+	1    7170 3070
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J4
+U 1 1 5EE2F4FB
+P 7315 4130
+F 0 "J4" H 7287 4062 50  0000 R CNN
+F 1 "Analog In" H 7287 4153 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 7315 4130 50  0001 C CNN
+F 3 "~" H 7315 4130 50  0001 C CNN
+	1    7315 4130
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J2
+U 1 1 5EE30E90
+P 7550 5300
+F 0 "J2" H 7522 5232 50  0000 R CNN
+F 1 "Digital In" H 7522 5323 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 7550 5300 50  0001 C CNN
+F 3 "~" H 7550 5300 50  0001 C CNN
+	1    7550 5300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5EE31F5A
+P 6970 2920
+F 0 "R1" H 7040 2966 50  0000 L CNN
+F 1 "10K" H 7040 2875 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6900 2920 50  0001 C CNN
+F 3 "~" H 6970 2920 50  0001 C CNN
+	1    6970 2920
+	1    0    0    -1  
+$EndComp
+Text GLabel 7115 4130 0    50   Input ~ 0
+A0
+$Comp
+L power:GND #PWR0101
+U 1 1 5EE37276
+P 7115 4230
+F 0 "#PWR0101" H 7115 3980 50  0001 C CNN
+F 1 "GND" H 6990 4205 50  0000 C CNN
+F 2 "" H 7115 4230 50  0001 C CNN
+F 3 "" H 7115 4230 50  0001 C CNN
+	1    7115 4230
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0103
+U 1 1 5EE390CD
+P 6970 2770
+F 0 "#PWR0103" H 6970 2620 50  0001 C CNN
+F 1 "+3.3V" H 6985 2943 50  0000 C CNN
+F 2 "" H 6970 2770 50  0001 C CNN
+F 3 "" H 6970 2770 50  0001 C CNN
+	1    6970 2770
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5EE39585
+P 6970 3170
+F 0 "#PWR0104" H 6970 2920 50  0001 C CNN
+F 1 "GND" H 6845 3145 50  0000 C CNN
+F 2 "" H 6970 3170 50  0001 C CNN
+F 3 "" H 6970 3170 50  0001 C CNN
+	1    6970 3170
+	1    0    0    -1  
+$EndComp
+Text GLabel 6915 3070 0    50   Input ~ 0
+D0
+Wire Wire Line
+	6915 3070 6970 3070
+Connection ~ 6970 3070
+Text GLabel 5390 3080 0    50   Input ~ 0
+A0
+$Comp
+L power:+5V #PWR0105
+U 1 1 5EE3ABE5
+P 7550 4810
+F 0 "#PWR0105" H 7550 4660 50  0001 C CNN
+F 1 "+5V" H 7565 4983 50  0000 C CNN
+F 2 "" H 7550 4810 50  0001 C CNN
+F 3 "" H 7550 4810 50  0001 C CNN
+	1    7550 4810
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5EE3BFD9
+P 7350 5400
+F 0 "#PWR0106" H 7350 5150 50  0001 C CNN
+F 1 "GND" H 7225 5375 50  0000 C CNN
+F 2 "" H 7350 5400 50  0001 C CNN
+F 3 "" H 7350 5400 50  0001 C CNN
+	1    7350 5400
+	1    0    0    -1  
+$EndComp
+Text GLabel 7115 5300 0    50   Input ~ 0
+D1
+Text GLabel 5390 3180 0    50   Input ~ 0
+D0
+Text GLabel 6390 3180 2    50   Input ~ 0
+D1
+$Comp
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 5EE3C6E7
+P 5495 4365
+F 0 "J1" H 5655 4360 50  0000 C CNN
+F 1 "Pwr In" H 5680 4250 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 5495 4365 50  0001 C CNN
+F 3 "~" H 5495 4365 50  0001 C CNN
+	1    5495 4365
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5EE3D955
+P 5695 4465
+F 0 "#PWR0107" H 5695 4215 50  0001 C CNN
+F 1 "GND" H 5695 4315 50  0000 C CNN
+F 2 "" H 5695 4465 50  0001 C CNN
+F 3 "" H 5695 4465 50  0001 C CNN
+	1    5695 4465
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0108
+U 1 1 5EE3DFB8
+P 5695 4365
+F 0 "#PWR0108" H 5695 4215 50  0001 C CNN
+F 1 "+5V" H 5695 4515 50  0000 C CNN
+F 2 "" H 5695 4365 50  0001 C CNN
+F 3 "" H 5695 4365 50  0001 C CNN
+	1    5695 4365
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0109
+U 1 1 5EE3EF94
+P 6390 3680
+F 0 "#PWR0109" H 6390 3530 50  0001 C CNN
+F 1 "+5V" V 6405 3808 50  0000 L CNN
+F 2 "" H 6390 3680 50  0001 C CNN
+F 3 "" H 6390 3680 50  0001 C CNN
+	1    6390 3680
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 5EE37BCF
+P 6915 3845
+F 0 "#PWR0102" H 6915 3695 50  0001 C CNN
+F 1 "+3.3V" H 6930 4018 50  0000 C CNN
+F 2 "" H 6915 3845 50  0001 C CNN
+F 3 "" H 6915 3845 50  0001 C CNN
+	1    6915 3845
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0110
+U 1 1 5EE3F883
+P 5390 3680
+F 0 "#PWR0110" H 5390 3530 50  0001 C CNN
+F 1 "+3.3V" V 5405 3808 50  0000 L CNN
+F 2 "" H 5390 3680 50  0001 C CNN
+F 3 "" H 5390 3680 50  0001 C CNN
+	1    5390 3680
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5EE40486
+P 6390 3580
+F 0 "#PWR0111" H 6390 3330 50  0001 C CNN
+F 1 "GND" V 6385 3375 50  0000 C CNN
+F 2 "" H 6390 3580 50  0001 C CNN
+F 3 "" H 6390 3580 50  0001 C CNN
+	1    6390 3580
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0112
+U 1 1 5EE4CBB8
+P 7150 4810
+F 0 "#PWR0112" H 7150 4660 50  0001 C CNN
+F 1 "+3.3V" H 7165 4983 50  0000 C CNN
+F 2 "" H 7150 4810 50  0001 C CNN
+F 3 "" H 7150 4810 50  0001 C CNN
+	1    7150 4810
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Open JP2
+U 1 1 5EE4F184
+P 7115 3845
+F 0 "JP2" H 7505 3885 50  0000 C CNN
+F 1 "5v/3.3v Select" H 7655 3805 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 7115 3845 50  0001 C CNN
+F 3 "~" H 7115 3845 50  0001 C CNN
+	1    7115 3845
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0113
+U 1 1 5EE52109
+P 7315 3845
+F 0 "#PWR0113" H 7315 3695 50  0001 C CNN
+F 1 "+5V" H 7330 4018 50  0000 C CNN
+F 2 "" H 7315 3845 50  0001 C CNN
+F 3 "" H 7315 3845 50  0001 C CNN
+	1    7315 3845
+	1    0    0    -1  
+$EndComp
+Text Label 7350 5200 0    50   ~ 0
+D_V
+Wire Wire Line
+	7115 3995 7115 4030
+Text Label 7115 4030 0    50   ~ 0
+A_V
+$Comp
+L Device:R R2
+U 1 1 5EE754E5
+P 7200 5150
+F 0 "R2" H 6975 5190 50  0000 L CNN
+F 1 "10K" H 6970 5105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7130 5150 50  0001 C CNN
+F 3 "~" H 7200 5150 50  0001 C CNN
+	1    7200 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 5300 7200 5300
+Connection ~ 7200 5300
+Wire Wire Line
+	7200 5300 7115 5300
+Wire Wire Line
+	7350 4960 7350 5000
+$Comp
+L Jumper:SolderJumper_3_Open JP1
+U 1 1 5EE4955E
+P 7350 4810
+F 0 "JP1" H 7855 4930 50  0000 C CNN
+F 1 "5v/3.3v Select" H 7930 4850 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 7350 4810 50  0001 C CNN
+F 3 "~" H 7350 4810 50  0001 C CNN
+	1    7350 4810
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 5000 7350 5000
+Connection ~ 7350 5000
+Wire Wire Line
+	7350 5000 7350 5200
+$EndSCHEMATC
