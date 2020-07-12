@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "HP Power Breakout"
+Date "2020-03-05"
+Rev "v1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -27,16 +27,16 @@ $EndComp
 $Comp
 L Device:R R1
 U 1 1 5E2A6BED
-P 7440 4930
-F 0 "R1" H 7510 4976 50  0000 L CNN
-F 1 "110" H 7510 4885 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7370 4930 50  0001 C CNN
-F 3 "~" H 7440 4930 50  0001 C CNN
-	1    7440 4930
+P 7595 4930
+F 0 "R1" H 7665 4976 50  0000 L CNN
+F 1 "110" H 7665 4885 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7525 4930 50  0001 C CNN
+F 3 "~" H 7595 4930 50  0001 C CNN
+	1    7595 4930
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7440 4780 7040 4780
+	7595 4780 7040 4780
 Wire Wire Line
 	6540 2080 6540 2180
 Connection ~ 6540 2180
@@ -283,7 +283,7 @@ F 3 "" H 5245 3445 50  0001 C CNN
 $EndComp
 Connection ~ 5245 3445
 $Comp
-L Switch:SW_SPST SW1
+L Switch:SW_SPDT SW1
 U 1 1 5E2C1445
 P 7240 5080
 F 0 "SW1" H 7240 5315 50  0000 C CNN
@@ -320,4 +320,9 @@ Wire Wire Line
 	4725 2225 4725 2325
 Wire Wire Line
 	4610 2325 4725 2325
+Wire Wire Line
+	7440 5180 7595 5180
+Wire Wire Line
+	7595 5180 7595 5080
+NoConn ~ 7440 4980
 $EndSCHEMATC
