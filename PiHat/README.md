@@ -27,7 +27,7 @@ Assembly Instructions are included in the manual below.
 * 2 pin GPIO Header for Push Button or Relay Support
 * 5v - 24v Vin Support
 
-## [Part BOM](https://github.com/computergeek1507/KiCad_Designs/raw/master/PiHat/PiHat_Bom.ods)
+## [Part BOM](https://github.com/computergeek1507/KiCad_Designs/raw/master/PiHat/PiHat_BOM.ods)
 
 
 ![Image of PiHat](https://github.com/computergeek1507/KiCad_Designs/raw/master/PiHat/PiHat.png)
