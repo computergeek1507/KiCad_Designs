@@ -1,0 +1,297 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "PiOLED"
+Date "2020-09-26"
+Rev "v1"
+Comp "Scott Hanson"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Raspberry_Pi_2_3 J1
+U 1 1 5F48FCEE
+P 2390 4910
+F 0 "J1" H 2390 6391 50  0000 C CNN
+F 1 "Raspberry_Pi_2_3" H 1690 6180 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 2390 4910 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 2390 4910 50  0001 C CNN
+F 4 "S7123-ND" H 2390 4910 50  0001 C CNN "Digi-Key_PN"
+F 5 "PPPC202LFBN-RC" H 2390 4910 50  0001 C CNN "MPN"
+	1    2390 4910
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5F4BAF54
+P 2880 1860
+F 0 "J2" H 3090 1850 50  0000 C CNN
+F 1 "PWR_IN" H 3080 1740 50  0000 C CNN
+F 2 "MKDS1_2-3.81:PHOENIX_MKDS1_2-3.81" H 2880 1860 50  0001 C CNN
+F 3 "~" H 2880 1860 50  0001 C CNN
+F 4 "OSTT7020150" H 2880 1860 50  0001 C CNN "Digi-Key_PN"
+F 5 "ED2675-ND" H 2880 1860 50  0001 C CNN "MPN"
+	1    2880 1860
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5F507799
+P 3080 1860
+F 0 "#PWR05" H 3080 1610 50  0001 C CNN
+F 1 "GND" H 3085 1687 50  0000 C CNN
+F 2 "" H 3080 1860 50  0001 C CNN
+F 3 "" H 3080 1860 50  0001 C CNN
+	1    3080 1860
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR01
+U 1 1 5F51ADD1
+P 2190 3610
+F 0 "#PWR01" H 2190 3460 50  0001 C CNN
+F 1 "+5V" H 2080 3850 50  0000 C CNN
+F 2 "" H 2190 3610 50  0001 C CNN
+F 3 "" H 2190 3610 50  0001 C CNN
+	1    2190 3610
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR02
+U 1 1 5F51CD28
+P 2290 3610
+F 0 "#PWR02" H 2290 3460 50  0001 C CNN
+F 1 "+5V" H 2240 3840 50  0000 C CNN
+F 2 "" H 2290 3610 50  0001 C CNN
+F 3 "" H 2290 3610 50  0001 C CNN
+	1    2290 3610
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5F51EEE3
+P 2290 6210
+F 0 "#PWR03" H 2290 5960 50  0001 C CNN
+F 1 "GND" H 2295 6037 50  0000 C CNN
+F 2 "" H 2290 6210 50  0001 C CNN
+F 3 "" H 2290 6210 50  0001 C CNN
+	1    2290 6210
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2690 6210 2590 6210
+Connection ~ 2090 6210
+Wire Wire Line
+	2090 6210 1990 6210
+Connection ~ 2190 6210
+Wire Wire Line
+	2190 6210 2090 6210
+Connection ~ 2290 6210
+Wire Wire Line
+	2290 6210 2190 6210
+Connection ~ 2390 6210
+Wire Wire Line
+	2390 6210 2290 6210
+Connection ~ 2490 6210
+Wire Wire Line
+	2490 6210 2390 6210
+Connection ~ 2590 6210
+Wire Wire Line
+	2590 6210 2490 6210
+$Comp
+L power:+5V #PWR06
+U 1 1 5F57E15B
+P 3080 1760
+F 0 "#PWR06" H 3080 1610 50  0001 C CNN
+F 1 "+5V" H 3095 1933 50  0000 C CNN
+F 2 "" H 3080 1760 50  0001 C CNN
+F 3 "" H 3080 1760 50  0001 C CNN
+	1    3080 1760
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR04
+U 1 1 5F4BAC1D
+P 2590 3610
+F 0 "#PWR04" H 2590 3460 50  0001 C CNN
+F 1 "+3.3V" H 2760 3770 50  0000 C CNN
+F 2 "" H 2590 3610 50  0001 C CNN
+F 3 "" H 2590 3610 50  0001 C CNN
+	1    2590 3610
+	1    0    0    -1  
+$EndComp
+Text GLabel 3190 4410 2    50   Input ~ 0
+I2C_SCL
+Text GLabel 3190 4310 2    50   Input ~ 0
+I2C_SDA
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F4A9509
+P 8570 1420
+F 0 "H1" H 8670 1466 50  0000 L CNN
+F 1 "3mm_Mounting_Hole" H 8670 1375 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 8570 1420 50  0001 C CNN
+F 3 "~" H 8570 1420 50  0001 C CNN
+	1    8570 1420
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5F4AA8F4
+P 8580 1880
+F 0 "H2" H 8680 1926 50  0000 L CNN
+F 1 "3mm_Mounting_Hole" H 8680 1835 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 8580 1880 50  0001 C CNN
+F 3 "~" H 8580 1880 50  0001 C CNN
+	1    8580 1880
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J3
+U 1 1 5F558145
+P 6650 2310
+F 0 "J3" H 6542 2595 50  0000 C CNN
+F 1 "OLED" H 6542 2504 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 6650 2310 50  0001 C CNN
+F 3 "~" H 6650 2310 50  0001 C CNN
+F 4 "S7002-ND" H 6650 2310 50  0001 C CNN "Digi-Key_PN"
+F 5 "PPTC041LFBN-RC" H 6650 2310 50  0001 C CNN "MPN"
+	1    6650 2310
+	-1   0    0    -1  
+$EndComp
+Text GLabel 6850 2210 2    50   Input ~ 0
+I2C_SDA
+Text GLabel 6850 2310 2    50   Input ~ 0
+I2C_SCL
+$Comp
+L power:GND #PWR0102
+U 1 1 5F55E113
+P 7740 2680
+F 0 "#PWR0102" H 7740 2430 50  0001 C CNN
+F 1 "GND" V 7745 2507 50  0000 C CNN
+F 2 "" H 7740 2680 50  0001 C CNN
+F 3 "" H 7740 2680 50  0001 C CNN
+	1    7740 2680
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 3190 4010
+NoConn ~ 3190 4110
+NoConn ~ 1590 4110
+NoConn ~ 1590 4410
+NoConn ~ 1590 4310
+$Comp
+L Connector:Conn_01x04_Female J4
+U 1 1 5F5A3E71
+P 6640 3120
+F 0 "J4" H 6532 3405 50  0000 C CNN
+F 1 "GPIO" H 6532 3314 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 6640 3120 50  0001 C CNN
+F 3 "~" H 6640 3120 50  0001 C CNN
+F 4 "S7002-ND" H 6640 3120 50  0001 C CNN "Digi-Key_PN"
+F 5 "PPTC041LFBN-RC" H 6640 3120 50  0001 C CNN "MPN"
+	1    6640 3120
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR034
+U 1 1 5F5B6E79
+P 6840 3320
+F 0 "#PWR034" H 6840 3070 50  0001 C CNN
+F 1 "GND" H 6845 3147 50  0000 C CNN
+F 2 "" H 6840 3320 50  0001 C CNN
+F 3 "" H 6840 3320 50  0001 C CNN
+	1    6840 3320
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR033
+U 1 1 5F5B73E6
+P 6840 3120
+F 0 "#PWR033" H 6840 2870 50  0001 C CNN
+F 1 "GND" V 6845 2947 50  0000 C CNN
+F 2 "" H 6840 3120 50  0001 C CNN
+F 3 "" H 6840 3120 50  0001 C CNN
+	1    6840 3120
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1590 4810 0    50   Input ~ 0
+GPIO20
+Text GLabel 1590 4910 0    50   Input ~ 0
+GPIO21
+Text GLabel 6840 3020 2    50   Input ~ 0
+GPIO21
+Text GLabel 6840 3220 2    50   Input ~ 0
+GPIO20
+$Comp
+L Jumper:SolderJumper_3_Open JP1
+U 1 1 5F736AB0
+P 7540 2240
+F 0 "JP1" H 7540 2445 50  0000 C CNN
+F 1 "PIN_3_JMP" H 7620 2340 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 7540 2240 50  0001 C CNN
+F 3 "~" H 7540 2240 50  0001 C CNN
+	1    7540 2240
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Open JP2
+U 1 1 5F73C3E0
+P 7540 2680
+F 0 "JP2" H 7540 2793 50  0000 C CNN
+F 1 "PIN_4_JMP" H 7340 2540 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 7540 2680 50  0001 C CNN
+F 3 "~" H 7540 2680 50  0001 C CNN
+	1    7540 2680
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5F73F5CE
+P 7740 2240
+F 0 "#PWR0103" H 7740 1990 50  0001 C CNN
+F 1 "GND" V 7745 2067 50  0000 C CNN
+F 2 "" H 7740 2240 50  0001 C CNN
+F 3 "" H 7740 2240 50  0001 C CNN
+	1    7740 2240
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0104
+U 1 1 5F73F90F
+P 7340 2240
+F 0 "#PWR0104" H 7340 2090 50  0001 C CNN
+F 1 "+3.3V" H 7200 2400 50  0000 L CNN
+F 2 "" H 7340 2240 50  0001 C CNN
+F 3 "" H 7340 2240 50  0001 C CNN
+	1    7340 2240
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0105
+U 1 1 5F740515
+P 7340 2680
+F 0 "#PWR0105" H 7340 2530 50  0001 C CNN
+F 1 "+3.3V" H 7070 2680 50  0000 L CNN
+F 2 "" H 7340 2680 50  0001 C CNN
+F 3 "" H 7340 2680 50  0001 C CNN
+	1    7340 2680
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 2510 7540 2510
+Wire Wire Line
+	7540 2510 7540 2530
+Wire Wire Line
+	6850 2410 7540 2410
+Wire Wire Line
+	7540 2410 7540 2390
+Text Label 6890 2510 0    50   ~ 0
+PIN4
+Text Label 6890 2410 0    50   ~ 0
+PIN3
+$EndSCHEMATC
