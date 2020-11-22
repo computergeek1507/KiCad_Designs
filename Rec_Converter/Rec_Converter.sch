@@ -62,12 +62,6 @@ Wire Wire Line
 Wire Wire Line
 	4100 3200 4360 3200
 Wire Wire Line
-	4360 3200 4360 3040
-Wire Wire Line
-	4360 3040 4700 3040
-Wire Wire Line
-	4700 3040 4700 3000
-Wire Wire Line
 	4700 3100 4100 3100
 $Comp
 L Mechanical:MountingHole H2
@@ -113,4 +107,10 @@ F 3 "~" H 6990 1700 50  0001 C CNN
 	1    6990 1700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4700 3040 4700 3000
+Wire Wire Line
+	4360 3200 4360 3040
+Wire Wire Line
+	4360 3040 4700 3040
 $EndSCHEMATC
