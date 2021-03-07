@@ -10,6 +10,13 @@
   )
 
   (page A4)
+  (title_block
+    (title "Power Distribution")
+    (date 2021-03-06)
+    (rev v1)
+    (company "Scott Hanson")
+  )
+
   (layers
     (0 F.Cu signal hide)
     (31 B.Cu signal hide)
@@ -84,9 +91,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "gerbers"))
   )
 
   (net 0 "")
@@ -673,7 +680,7 @@
       (net 1 GND))
     (pad 2 thru_hole oval (at 5.08 0 180) (size 1.8 3.6) (drill 1.2) (layers *.Cu *.Mask)
       (net 1 GND))
-    (pad 1 thru_hole roundrect (at 0 0 180) (size 1.8 3.6) (drill 1.2) (layers *.Cu *.Mask) (roundrect_rratio 0.138889)
+    (pad 1 thru_hole roundrect (at 0 0 180) (size 1.8 3.6) (drill 1.2) (layers *.Cu *.Mask) (roundrect_rratio 0.1388888888888889)
       (net 1 GND))
     (model ${KISYS3DMOD}/Connector_Phoenix_MC_HighVoltage.3dshapes/PhoenixContact_MCV_1,5_8-G-5.08_1x08_P5.08mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -838,7 +845,7 @@
       (net 5 "Net-(F3-Pad2_1)"))
     (pad 2 thru_hole oval (at 5.08 0) (size 1.8 3.6) (drill 1.2) (layers *.Cu *.Mask)
       (net 4 "Net-(F2-Pad2_1)"))
-    (pad 1 thru_hole roundrect (at 0 0) (size 1.8 3.6) (drill 1.2) (layers *.Cu *.Mask) (roundrect_rratio 0.138889)
+    (pad 1 thru_hole roundrect (at 0 0) (size 1.8 3.6) (drill 1.2) (layers *.Cu *.Mask) (roundrect_rratio 0.1388888888888889)
       (net 3 "Net-(F1-Pad2_1)"))
     (model ${KISYS3DMOD}/Connector_Phoenix_MC_HighVoltage.3dshapes/PhoenixContact_MCV_1,5_8-G-5.08_1x08_P5.08mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -1012,7 +1019,7 @@
   (segment (start 140.55 86.49) (end 139.06 85) (width 3) (layer B.Cu) (net 10))
   (segment (start 140.55 94.64) (end 140.55 86.49) (width 3) (layer B.Cu) (net 10))
 
-  (zone (net 2) (net_name +12V) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 2) (net_name +12V) (layer F.Cu) (tstamp 6044FBB9) (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -1027,7 +1034,7 @@
       )
     )
   )
-  (zone (net 2) (net_name +12V) (layer B.Cu) (tstamp 6044D8B4) (hatch edge 0.508)
+  (zone (net 2) (net_name +12V) (layer B.Cu) (tstamp 6044FBB6) (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -1042,7 +1049,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 6044DC0E) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 6044FBB3) (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -1131,7 +1138,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 6044DC18) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 6044FBB0) (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
