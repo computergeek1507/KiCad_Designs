@@ -1,0 +1,122 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Barrier_Blocks_BARRIER_BLOCK_1ROW_2POS
+#
+DEF Barrier_Blocks_BARRIER_BLOCK_1ROW_2POS TB 0 40 Y N 1 F N
+F0 "TB" 5 -265 60 H V C CNN
+F1 "Barrier_Blocks_BARRIER_BLOCK_1ROW_2POS" 10 250 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C 0 -100 50 0 1 0 N
+C 0 100 50 0 1 0 N
+S -100 200 100 -200 0 1 0 N
+P 4 0 1 0 -100 -185 -100 -200 100 -200 100 -185 F
+P 4 0 1 0 -100 10 -100 -10 100 -10 100 10 F
+P 4 0 1 0 -100 185 -100 200 100 200 100 185 F
+P 5 0 1 0 -33 -138 -38 -133 32 -63 38 -67 -33 -138 F
+P 6 0 1 0 -33 62 -38 66 -2 102 33 137 38 132 38 132 F
+X P1 1 -350 100 250 R 60 60 1 1 P
+X P2 2 -350 -100 250 R 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_01x08
+#
+DEF Connector_Generic_Conn_01x08 J 0 40 Y N 1 F N
+F0 "J" 0 400 50 H V C CNN
+F1 "Connector_Generic_Conn_01x08" 0 -500 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -395 0 -405 1 1 6 N
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 305 0 295 1 1 6 N
+S -50 350 50 -450 1 1 10 f
+X Pin_1 1 -200 300 150 R 50 50 1 1 P
+X Pin_2 2 -200 200 150 R 50 50 1 1 P
+X Pin_3 3 -200 100 150 R 50 50 1 1 P
+X Pin_4 4 -200 0 150 R 50 50 1 1 P
+X Pin_5 5 -200 -100 150 R 50 50 1 1 P
+X Pin_6 6 -200 -200 150 R 50 50 1 1 P
+X Pin_7 7 -200 -300 150 R 50 50 1 1 P
+X Pin_8 8 -200 -400 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Keystone_Fuse_3544-2_SM
+#
+DEF Keystone_Fuse_3544-2_SM F 0 40 Y N 1 L N
+F0 "F" -75 50 39 H V L BNN
+F1 "Keystone_Fuse_3544-2_SM" -150 -75 39 H V L BNN
+F2 "FUSE_3544-2" -1000 225 50 H I L BNN
+F3 "None" -1000 225 50 H I L BNN
+F4 "3544-2" -1000 225 50 H I L BNN
+F5 "None" -1000 225 50 H I L BNN
+F6 "Unavailable" -1000 225 50 H I L BNN
+F7 "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses" -1000 225 50 H I L BNN
+F8 "Keystone Electronics" -1000 225 50 H I L BNN
+DRAW
+S -75 25 75 -25 1 1 0 N
+P 2 1 1 0 -50 0 50 0 N
+X 1 1_1 -150 0 100 R 40 40 0 0 P
+X 1 1_2 -150 0 100 R 40 40 0 0 P
+X 2 2_1 150 0 100 L 40 40 0 0 P
+X 2 2_2 150 0 100 L 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Mechanical_MountingHole_Pad
+#
+DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
+F0 "H" 0 250 50 H V C CNN
+F1 "Mechanical_MountingHole_Pad" 0 175 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*Pad*
+$ENDFPLIST
+DRAW
+C 0 50 50 0 1 50 N
+X 1 1 0 -100 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# power_+12V
+#
+DEF power_+12V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+12V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +12V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library

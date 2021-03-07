@@ -1,0 +1,331 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x08 J1
+U 1 1 6044779F
+P 5000 2100
+F 0 "J1" H 5080 2092 50  0000 L CNN
+F 1 "PWR Out" H 5080 2001 50  0000 L CNN
+F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_8-G-5.08_1x08_P5.08mm_Vertical" H 5000 2100 50  0001 C CNN
+F 3 "~" H 5000 2100 50  0001 C CNN
+F 4 "609-3942-ND" H 5000 2100 50  0001 C CNN "Digi-Key PN"
+	1    5000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J2
+U 1 1 6044902B
+P 5000 3000
+F 0 "J2" H 5080 2992 50  0000 L CNN
+F 1 "GND Out" H 5080 2901 50  0000 L CNN
+F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_8-G-5.08_1x08_P5.08mm_Vertical" H 5000 3000 50  0001 C CNN
+F 3 "~" H 5000 3000 50  0001 C CNN
+F 4 "609-3942-ND" H 5000 3000 50  0001 C CNN "Digi-Key PN"
+	1    5000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Barrier_Blocks:BARRIER_BLOCK_1ROW_2POS TB1
+U 1 1 6044FA96
+P 2750 2100
+F 0 "TB1" H 2617 2487 60  0000 C CNN
+F 1 "Power In" H 2800 2400 60  0000 C CNN
+F 2 "Barrier_Blocks:BARRIER_BLOCK_1ROW_2POS_P9.5MM" H 2750 2100 60  0001 C CNN
+F 3 "" H 2750 2100 60  0000 C CNN
+	1    2750 2100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 60453129
+P 4800 3400
+F 0 "#PWR0101" H 4800 3150 50  0001 C CNN
+F 1 "GND" H 4805 3227 50  0000 C CNN
+F 2 "" H 4800 3400 50  0001 C CNN
+F 3 "" H 4800 3400 50  0001 C CNN
+	1    4800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 60453631
+P 3100 2200
+F 0 "#PWR0102" H 3100 1950 50  0001 C CNN
+F 1 "GND" H 3105 2027 50  0000 C CNN
+F 2 "" H 3100 2200 50  0001 C CNN
+F 3 "" H 3100 2200 50  0001 C CNN
+	1    3100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0103
+U 1 1 60453EBC
+P 4500 1800
+F 0 "#PWR0103" H 4500 1650 50  0001 C CNN
+F 1 "+12V" H 4515 1973 50  0000 C CNN
+F 2 "" H 4500 1800 50  0001 C CNN
+F 3 "" H 4500 1800 50  0001 C CNN
+	1    4500 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 2700 4800 2800
+Connection ~ 4800 3400
+Connection ~ 4800 2800
+Wire Wire Line
+	4800 2800 4800 2900
+Connection ~ 4800 2900
+Wire Wire Line
+	4800 2900 4800 3000
+Connection ~ 4800 3000
+Wire Wire Line
+	4800 3000 4800 3100
+Connection ~ 4800 3100
+Wire Wire Line
+	4800 3100 4800 3200
+Connection ~ 4800 3200
+Wire Wire Line
+	4800 3200 4800 3300
+Connection ~ 4800 3300
+Wire Wire Line
+	4800 3300 4800 3400
+$Comp
+L power:+12V #PWR0104
+U 1 1 60455962
+P 3100 2000
+F 0 "#PWR0104" H 3100 1850 50  0001 C CNN
+F 1 "+12V" H 3115 2173 50  0000 C CNN
+F 2 "" H 3100 2000 50  0001 C CNN
+F 3 "" H 3100 2000 50  0001 C CNN
+	1    3100 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 60459997
+P 6200 1550
+F 0 "H2" H 6300 1599 50  0000 L CNN
+F 1 "MountingHole_Pad" H 6300 1508 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 6200 1550 50  0001 C CNN
+F 3 "~" H 6200 1550 50  0001 C CNN
+	1    6200 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 60459BE4
+P 6450 1550
+F 0 "H3" H 6550 1599 50  0000 L CNN
+F 1 "MountingHole_Pad" H 6550 1508 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 6450 1550 50  0001 C CNN
+F 3 "~" H 6450 1550 50  0001 C CNN
+	1    6450 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 60459E96
+P 6700 1550
+F 0 "H4" H 6800 1599 50  0000 L CNN
+F 1 "MountingHole_Pad" H 6800 1508 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 6700 1550 50  0001 C CNN
+F 3 "~" H 6700 1550 50  0001 C CNN
+	1    6700 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 6045B766
+P 6200 1650
+F 0 "#PWR0106" H 6200 1400 50  0001 C CNN
+F 1 "GND" H 6205 1477 50  0000 C CNN
+F 2 "" H 6200 1650 50  0001 C CNN
+F 3 "" H 6200 1650 50  0001 C CNN
+	1    6200 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 6045B9D3
+P 6450 1650
+F 0 "#PWR0107" H 6450 1400 50  0001 C CNN
+F 1 "GND" H 6455 1477 50  0000 C CNN
+F 2 "" H 6450 1650 50  0001 C CNN
+F 3 "" H 6450 1650 50  0001 C CNN
+	1    6450 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 6045BC50
+P 6700 1650
+F 0 "#PWR0108" H 6700 1400 50  0001 C CNN
+F 1 "GND" H 6705 1477 50  0000 C CNN
+F 2 "" H 6700 1650 50  0001 C CNN
+F 3 "" H 6700 1650 50  0001 C CNN
+	1    6700 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 1800 4500 1900
+$Comp
+L Keystone_Fuse:3544-2_SM F1
+U 1 1 6047EAC6
+P 4650 1800
+F 0 "F1" H 4650 1966 39  0000 C CNN
+F 1 "3544-2_SM" H 4650 1891 39  0000 C CNN
+F 2 "FUSE_3544-2" H 3650 2025 50  0001 L BNN
+F 3 "None" H 3650 2025 50  0001 L BNN
+F 4 "3544-2" H 3650 2025 50  0001 L BNN "Field4"
+F 5 "None" H 3650 2025 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 3650 2025 50  0001 L BNN "Field6"
+F 7 "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses" H 3650 2025 50  0001 L BNN "Field7"
+F 8 "Keystone Electronics" H 3650 2025 50  0001 L BNN "Field8"
+	1    4650 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Keystone_Fuse:3544-2_SM F2
+U 1 1 6047F0E7
+P 4650 1900
+F 0 "F2" H 4650 2066 39  0000 C CNN
+F 1 "3544-2_SM" H 4650 1991 39  0000 C CNN
+F 2 "FUSE_3544-2" H 3650 2125 50  0001 L BNN
+F 3 "None" H 3650 2125 50  0001 L BNN
+F 4 "3544-2" H 3650 2125 50  0001 L BNN "Field4"
+F 5 "None" H 3650 2125 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 3650 2125 50  0001 L BNN "Field6"
+F 7 "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses" H 3650 2125 50  0001 L BNN "Field7"
+F 8 "Keystone Electronics" H 3650 2125 50  0001 L BNN "Field8"
+	1    4650 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Keystone_Fuse:3544-2_SM F3
+U 1 1 6047F406
+P 4650 2000
+F 0 "F3" H 4650 2166 39  0000 C CNN
+F 1 "3544-2_SM" H 4650 2091 39  0000 C CNN
+F 2 "FUSE_3544-2" H 3650 2225 50  0001 L BNN
+F 3 "None" H 3650 2225 50  0001 L BNN
+F 4 "3544-2" H 3650 2225 50  0001 L BNN "Field4"
+F 5 "None" H 3650 2225 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 3650 2225 50  0001 L BNN "Field6"
+F 7 "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses" H 3650 2225 50  0001 L BNN "Field7"
+F 8 "Keystone Electronics" H 3650 2225 50  0001 L BNN "Field8"
+	1    4650 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Keystone_Fuse:3544-2_SM F4
+U 1 1 6047F7DF
+P 4650 2100
+F 0 "F4" H 4650 2266 39  0000 C CNN
+F 1 "3544-2_SM" H 4650 2191 39  0000 C CNN
+F 2 "FUSE_3544-2" H 3650 2325 50  0001 L BNN
+F 3 "None" H 3650 2325 50  0001 L BNN
+F 4 "3544-2" H 3650 2325 50  0001 L BNN "Field4"
+F 5 "None" H 3650 2325 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 3650 2325 50  0001 L BNN "Field6"
+F 7 "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses" H 3650 2325 50  0001 L BNN "Field7"
+F 8 "Keystone Electronics" H 3650 2325 50  0001 L BNN "Field8"
+	1    4650 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Keystone_Fuse:3544-2_SM F5
+U 1 1 6047FC5A
+P 4650 2200
+F 0 "F5" H 4650 2366 39  0000 C CNN
+F 1 "3544-2_SM" H 4650 2291 39  0000 C CNN
+F 2 "FUSE_3544-2" H 3650 2425 50  0001 L BNN
+F 3 "None" H 3650 2425 50  0001 L BNN
+F 4 "3544-2" H 3650 2425 50  0001 L BNN "Field4"
+F 5 "None" H 3650 2425 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 3650 2425 50  0001 L BNN "Field6"
+F 7 "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses" H 3650 2425 50  0001 L BNN "Field7"
+F 8 "Keystone Electronics" H 3650 2425 50  0001 L BNN "Field8"
+	1    4650 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Keystone_Fuse:3544-2_SM F6
+U 1 1 6047FF55
+P 4650 2300
+F 0 "F6" H 4650 2466 39  0000 C CNN
+F 1 "3544-2_SM" H 4650 2391 39  0000 C CNN
+F 2 "FUSE_3544-2" H 3650 2525 50  0001 L BNN
+F 3 "None" H 3650 2525 50  0001 L BNN
+F 4 "3544-2" H 3650 2525 50  0001 L BNN "Field4"
+F 5 "None" H 3650 2525 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 3650 2525 50  0001 L BNN "Field6"
+F 7 "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses" H 3650 2525 50  0001 L BNN "Field7"
+F 8 "Keystone Electronics" H 3650 2525 50  0001 L BNN "Field8"
+	1    4650 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Keystone_Fuse:3544-2_SM F7
+U 1 1 6048025E
+P 4650 2400
+F 0 "F7" H 4650 2566 39  0000 C CNN
+F 1 "3544-2_SM" H 4650 2491 39  0000 C CNN
+F 2 "FUSE_3544-2" H 3650 2625 50  0001 L BNN
+F 3 "None" H 3650 2625 50  0001 L BNN
+F 4 "3544-2" H 3650 2625 50  0001 L BNN "Field4"
+F 5 "None" H 3650 2625 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 3650 2625 50  0001 L BNN "Field6"
+F 7 "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses" H 3650 2625 50  0001 L BNN "Field7"
+F 8 "Keystone Electronics" H 3650 2625 50  0001 L BNN "Field8"
+	1    4650 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Keystone_Fuse:3544-2_SM F8
+U 1 1 60480683
+P 4650 2500
+F 0 "F8" H 4650 2666 39  0000 C CNN
+F 1 "3544-2_SM" H 4650 2591 39  0000 C CNN
+F 2 "FUSE_3544-2" H 3650 2725 50  0001 L BNN
+F 3 "None" H 3650 2725 50  0001 L BNN
+F 4 "3544-2" H 3650 2725 50  0001 L BNN "Field4"
+F 5 "None" H 3650 2725 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 3650 2725 50  0001 L BNN "Field6"
+F 7 "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses" H 3650 2725 50  0001 L BNN "Field7"
+F 8 "Keystone Electronics" H 3650 2725 50  0001 L BNN "Field8"
+	1    4650 2500
+	1    0    0    -1  
+$EndComp
+Connection ~ 4500 1800
+Connection ~ 4500 1900
+Wire Wire Line
+	4500 1900 4500 2000
+Connection ~ 4500 2000
+Wire Wire Line
+	4500 2000 4500 2100
+Connection ~ 4500 2100
+Wire Wire Line
+	4500 2100 4500 2200
+Connection ~ 4500 2200
+Wire Wire Line
+	4500 2200 4500 2300
+Connection ~ 4500 2300
+Wire Wire Line
+	4500 2300 4500 2400
+Connection ~ 4500 2400
+Wire Wire Line
+	4500 2400 4500 2500
+$EndSCHEMATC
