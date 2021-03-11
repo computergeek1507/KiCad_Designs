@@ -45,6 +45,7 @@ F 0 "TB1" H 2617 2487 60  0000 C CNN
 F 1 "Power In" H 2800 2400 60  0000 C CNN
 F 2 "Barrier_Blocks:BARRIER_BLOCK_1ROW_2POS_P9.5MM" H 2750 2100 60  0001 C CNN
 F 3 "" H 2750 2100 60  0000 C CNN
+F 4 "ED2953-ND" H 2750 2100 50  0001 C CNN "Digi-Key PN"
 	1    2750 2100
 	-1   0    0    -1  
 $EndComp
@@ -194,6 +195,7 @@ F 5 "None" H 3650 2025 50  0001 L BNN "Field5"
 F 6 "Unavailable" H 3650 2025 50  0001 L BNN "Field6"
 F 7 "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses" H 3650 2025 50  0001 L BNN "Field7"
 F 8 "Keystone Electronics" H 3650 2025 50  0001 L BNN "Field8"
+F 9 "36-3544-2-ND" H 4650 1800 50  0001 C CNN "Digi-Key PN"
 	1    4650 1800
 	1    0    0    -1  
 $EndComp
@@ -210,6 +212,7 @@ F 5 "None" H 3650 2125 50  0001 L BNN "Field5"
 F 6 "Unavailable" H 3650 2125 50  0001 L BNN "Field6"
 F 7 "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses" H 3650 2125 50  0001 L BNN "Field7"
 F 8 "Keystone Electronics" H 3650 2125 50  0001 L BNN "Field8"
+F 9 "36-3544-2-ND" H 4650 1900 50  0001 C CNN "Digi-Key PN"
 	1    4650 1900
 	1    0    0    -1  
 $EndComp
@@ -226,6 +229,7 @@ F 5 "None" H 3650 2225 50  0001 L BNN "Field5"
 F 6 "Unavailable" H 3650 2225 50  0001 L BNN "Field6"
 F 7 "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses" H 3650 2225 50  0001 L BNN "Field7"
 F 8 "Keystone Electronics" H 3650 2225 50  0001 L BNN "Field8"
+F 9 "36-3544-2-ND" H 4650 2000 50  0001 C CNN "Digi-Key PN"
 	1    4650 2000
 	1    0    0    -1  
 $EndComp
@@ -242,6 +246,7 @@ F 5 "None" H 3650 2325 50  0001 L BNN "Field5"
 F 6 "Unavailable" H 3650 2325 50  0001 L BNN "Field6"
 F 7 "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses" H 3650 2325 50  0001 L BNN "Field7"
 F 8 "Keystone Electronics" H 3650 2325 50  0001 L BNN "Field8"
+F 9 "36-3544-2-ND" H 4650 2100 50  0001 C CNN "Digi-Key PN"
 	1    4650 2100
 	1    0    0    -1  
 $EndComp
@@ -258,6 +263,7 @@ F 5 "None" H 3650 2425 50  0001 L BNN "Field5"
 F 6 "Unavailable" H 3650 2425 50  0001 L BNN "Field6"
 F 7 "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses" H 3650 2425 50  0001 L BNN "Field7"
 F 8 "Keystone Electronics" H 3650 2425 50  0001 L BNN "Field8"
+F 9 "36-3544-2-ND" H 4650 2200 50  0001 C CNN "Digi-Key PN"
 	1    4650 2200
 	1    0    0    -1  
 $EndComp
@@ -274,6 +280,7 @@ F 5 "None" H 3650 2525 50  0001 L BNN "Field5"
 F 6 "Unavailable" H 3650 2525 50  0001 L BNN "Field6"
 F 7 "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses" H 3650 2525 50  0001 L BNN "Field7"
 F 8 "Keystone Electronics" H 3650 2525 50  0001 L BNN "Field8"
+F 9 "36-3544-2-ND" H 4650 2300 50  0001 C CNN "Digi-Key PN"
 	1    4650 2300
 	1    0    0    -1  
 $EndComp
@@ -290,6 +297,7 @@ F 5 "None" H 3650 2625 50  0001 L BNN "Field5"
 F 6 "Unavailable" H 3650 2625 50  0001 L BNN "Field6"
 F 7 "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses" H 3650 2625 50  0001 L BNN "Field7"
 F 8 "Keystone Electronics" H 3650 2625 50  0001 L BNN "Field8"
+F 9 "36-3544-2-ND" H 4650 2400 50  0001 C CNN "Digi-Key PN"
 	1    4650 2400
 	1    0    0    -1  
 $EndComp
@@ -306,6 +314,7 @@ F 5 "None" H 3650 2725 50  0001 L BNN "Field5"
 F 6 "Unavailable" H 3650 2725 50  0001 L BNN "Field6"
 F 7 "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses" H 3650 2725 50  0001 L BNN "Field7"
 F 8 "Keystone Electronics" H 3650 2725 50  0001 L BNN "Field8"
+F 9 "36-3544-2-ND" H 4650 2500 50  0001 C CNN "Digi-Key PN"
 	1    4650 2500
 	1    0    0    -1  
 $EndComp
