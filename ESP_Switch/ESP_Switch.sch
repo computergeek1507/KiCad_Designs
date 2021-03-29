@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "ESP Switch"
-Date "2020-04-12"
-Rev "v1.1"
+Date "2020-06-10"
+Rev "v1.2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -547,13 +547,13 @@ $EndComp
 $Comp
 L power:GND #PWR0102
 U 1 1 5E7459BA
-P 3420 3840
-F 0 "#PWR0102" H 3420 3590 50  0001 C CNN
-F 1 "GND" H 3440 3590 50  0000 C CNN
-F 2 "" H 3420 3840 50  0001 C CNN
-F 3 "" H 3420 3840 50  0001 C CNN
-	1    3420 3840
-	1    0    0    -1  
+P 3420 2840
+F 0 "#PWR0102" H 3420 2590 50  0001 C CNN
+F 1 "GND" H 3440 2590 50  0000 C CNN
+F 2 "" H 3420 2840 50  0001 C CNN
+F 3 "" H 3420 2840 50  0001 C CNN
+	1    3420 2840
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0103
@@ -595,7 +595,7 @@ F 10 "CONN RCPT USB2.0 MINI B 5P R/A" H 3820 4340 60  0001 L CNN "Description"
 F 11 "Molex" H 3820 4440 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 3820 4540 60  0001 L CNN "Status"
 	1    3620 3340
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	5795 2195 5665 2195
