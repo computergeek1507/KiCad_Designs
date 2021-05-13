@@ -1,0 +1,996 @@
+EESchema Schematic File Version 4
+LIBS:ESP32_Controller-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x02 J9
+U 1 1 5CEC911C
+P 8520 860
+F 0 "J9" H 8600 852 50  0000 L CNN
+F 1 "Conn_01x02" H 8600 761 50  0000 L CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type701_RT11L02HGLU_1x02_P6.35mm_Horizontal" H 8520 860 50  0001 C CNN
+F 3 "~" H 8520 860 50  0001 C CNN
+	1    8520 860 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5CEC9DDD
+P 7380 4120
+F 0 "J1" H 7460 4162 50  0000 L CNN
+F 1 "Conn_01x03" H 7460 4071 50  0000 L CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 7380 4120 50  0001 C CNN
+F 3 "~" H 7380 4120 50  0001 C CNN
+	1    7380 4120
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J2
+U 1 1 5CECA6F1
+P 7940 4110
+F 0 "J2" H 8020 4152 50  0000 L CNN
+F 1 "Conn_01x03" H 8020 4061 50  0000 L CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 7940 4110 50  0001 C CNN
+F 3 "~" H 7940 4110 50  0001 C CNN
+	1    7940 4110
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J3
+U 1 1 5CECA95A
+P 8360 4090
+F 0 "J3" H 8440 4132 50  0000 L CNN
+F 1 "Conn_01x03" H 8440 4041 50  0000 L CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 8360 4090 50  0001 C CNN
+F 3 "~" H 8360 4090 50  0001 C CNN
+	1    8360 4090
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J4
+U 1 1 5CECAB67
+P 8720 4080
+F 0 "J4" H 8800 4122 50  0000 L CNN
+F 1 "Conn_01x03" H 8800 4031 50  0000 L CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 8720 4080 50  0001 C CNN
+F 3 "~" H 8720 4080 50  0001 C CNN
+	1    8720 4080
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J5
+U 1 1 5CECAD87
+P 9060 4060
+F 0 "J5" H 9140 4102 50  0000 L CNN
+F 1 "Conn_01x03" H 9140 4011 50  0000 L CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 9060 4060 50  0001 C CNN
+F 3 "~" H 9060 4060 50  0001 C CNN
+	1    9060 4060
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J6
+U 1 1 5CECB12F
+P 9390 4080
+F 0 "J6" H 9470 4122 50  0000 L CNN
+F 1 "Conn_01x03" H 9470 4031 50  0000 L CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 9390 4080 50  0001 C CNN
+F 3 "~" H 9390 4080 50  0001 C CNN
+	1    9390 4080
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J7
+U 1 1 5CECB38E
+P 9720 4070
+F 0 "J7" H 9800 4112 50  0000 L CNN
+F 1 "Conn_01x03" H 9800 4021 50  0000 L CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 9720 4070 50  0001 C CNN
+F 3 "~" H 9720 4070 50  0001 C CNN
+	1    9720 4070
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J8
+U 1 1 5CECB5F6
+P 10130 4070
+F 0 "J8" H 10210 4112 50  0000 L CNN
+F 1 "Conn_01x03" H 10210 4021 50  0000 L CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 10130 4070 50  0001 C CNN
+F 3 "~" H 10130 4070 50  0001 C CNN
+	1    10130 4070
+	1    0    0    1   
+$EndComp
+$Comp
+L Regulator_Linear:LM7805_TO220 U2
+U 1 1 5CECC219
+P 9100 1760
+F 0 "U2" H 9100 2002 50  0000 C CNN
+F 1 "LM7805_TO220" H 9100 1911 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 9100 1985 50  0001 C CIN
+F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 9100 1710 50  0001 C CNN
+	1    9100 1760
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C2
+U 1 1 5CECF65F
+P 9570 1910
+F 0 "C2" H 9688 1956 50  0000 L CNN
+F 1 "10uF" H 9688 1865 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 9608 1760 50  0001 C CNN
+F 3 "~" H 9570 1910 50  0001 C CNN
+	1    9570 1910
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C1
+U 1 1 5CECFCFA
+P 8570 1910
+F 0 "C1" H 8688 1956 50  0000 L CNN
+F 1 "100uF" H 8688 1865 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 8608 1760 50  0001 C CNN
+F 3 "~" H 8570 1910 50  0001 C CNN
+	1    8570 1910
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5CED08B0
+P 8320 960
+F 0 "#PWR0101" H 8320 710 50  0001 C CNN
+F 1 "GND" H 8325 787 50  0000 C CNN
+F 2 "" H 8320 960 50  0001 C CNN
+F 3 "" H 8320 960 50  0001 C CNN
+	1    8320 960 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5CED157B
+P 7180 4220
+F 0 "#PWR0102" H 7180 3970 50  0001 C CNN
+F 1 "GND" H 7185 4047 50  0000 C CNN
+F 2 "" H 7180 4220 50  0001 C CNN
+F 3 "" H 7180 4220 50  0001 C CNN
+	1    7180 4220
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5CED199F
+P 7740 4210
+F 0 "#PWR0103" H 7740 3960 50  0001 C CNN
+F 1 "GND" H 7745 4037 50  0000 C CNN
+F 2 "" H 7740 4210 50  0001 C CNN
+F 3 "" H 7740 4210 50  0001 C CNN
+	1    7740 4210
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5CED2623
+P 8160 4190
+F 0 "#PWR0104" H 8160 3940 50  0001 C CNN
+F 1 "GND" H 8165 4017 50  0000 C CNN
+F 2 "" H 8160 4190 50  0001 C CNN
+F 3 "" H 8160 4190 50  0001 C CNN
+	1    8160 4190
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5CED28DF
+P 8520 4180
+F 0 "#PWR0105" H 8520 3930 50  0001 C CNN
+F 1 "GND" H 8525 4007 50  0000 C CNN
+F 2 "" H 8520 4180 50  0001 C CNN
+F 3 "" H 8520 4180 50  0001 C CNN
+	1    8520 4180
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5CED2C03
+P 8860 4160
+F 0 "#PWR0106" H 8860 3910 50  0001 C CNN
+F 1 "GND" H 8865 3987 50  0000 C CNN
+F 2 "" H 8860 4160 50  0001 C CNN
+F 3 "" H 8860 4160 50  0001 C CNN
+	1    8860 4160
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5CED2EAA
+P 9190 4180
+F 0 "#PWR0107" H 9190 3930 50  0001 C CNN
+F 1 "GND" H 9195 4007 50  0000 C CNN
+F 2 "" H 9190 4180 50  0001 C CNN
+F 3 "" H 9190 4180 50  0001 C CNN
+	1    9190 4180
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5CED3082
+P 9520 4170
+F 0 "#PWR0108" H 9520 3920 50  0001 C CNN
+F 1 "GND" H 9525 3997 50  0000 C CNN
+F 2 "" H 9520 4170 50  0001 C CNN
+F 3 "" H 9520 4170 50  0001 C CNN
+	1    9520 4170
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5CED3CAC
+P 9930 4170
+F 0 "#PWR0109" H 9930 3920 50  0001 C CNN
+F 1 "GND" H 9935 3997 50  0000 C CNN
+F 2 "" H 9930 4170 50  0001 C CNN
+F 3 "" H 9930 4170 50  0001 C CNN
+	1    9930 4170
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0111
+U 1 1 5CED5141
+P 6780 1410
+F 0 "#PWR0111" H 6780 1260 50  0001 C CNN
+F 1 "+5V" H 6795 1583 50  0000 C CNN
+F 2 "" H 6780 1410 50  0001 C CNN
+F 3 "" H 6780 1410 50  0001 C CNN
+	1    6780 1410
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5CED5D58
+P 6780 3810
+F 0 "#PWR0112" H 6780 3560 50  0001 C CNN
+F 1 "GND" H 6785 3637 50  0000 C CNN
+F 2 "" H 6780 3810 50  0001 C CNN
+F 3 "" H 6780 3810 50  0001 C CNN
+	1    6780 3810
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5CED62AB
+P 9100 2060
+F 0 "#PWR0113" H 9100 1810 50  0001 C CNN
+F 1 "GND" H 9105 1887 50  0000 C CNN
+F 2 "" H 9100 2060 50  0001 C CNN
+F 3 "" H 9100 2060 50  0001 C CNN
+	1    9100 2060
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 5CED6B11
+P 9570 2060
+F 0 "#PWR0114" H 9570 1810 50  0001 C CNN
+F 1 "GND" H 9575 1887 50  0000 C CNN
+F 2 "" H 9570 2060 50  0001 C CNN
+F 3 "" H 9570 2060 50  0001 C CNN
+	1    9570 2060
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5CED6E0A
+P 8570 2060
+F 0 "#PWR0115" H 8570 1810 50  0001 C CNN
+F 1 "GND" H 8575 1887 50  0000 C CNN
+F 2 "" H 8570 2060 50  0001 C CNN
+F 3 "" H 8570 2060 50  0001 C CNN
+	1    8570 2060
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0116
+U 1 1 5CED70A3
+P 9760 1760
+F 0 "#PWR0116" H 9760 1610 50  0001 C CNN
+F 1 "+5V" H 9775 1933 50  0000 C CNN
+F 2 "" H 9760 1760 50  0001 C CNN
+F 3 "" H 9760 1760 50  0001 C CNN
+	1    9760 1760
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+VDC #PWR0118
+U 1 1 5CED9815
+P 7440 1760
+F 0 "#PWR0118" H 7440 1660 50  0001 C CNN
+F 1 "+VDC" H 7440 2035 50  0000 C CNN
+F 2 "" H 7440 1760 50  0001 C CNN
+F 3 "" H 7440 1760 50  0001 C CNN
+	1    7440 1760
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+VDC #PWR0119
+U 1 1 5CEDA19F
+P 7370 2790
+F 0 "#PWR0119" H 7370 2690 50  0001 C CNN
+F 1 "+VDC" H 7370 3065 50  0000 C CNN
+F 2 "" H 7370 2790 50  0001 C CNN
+F 3 "" H 7370 2790 50  0001 C CNN
+	1    7370 2790
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+VDC #PWR0120
+U 1 1 5CEDA779
+P 7900 2770
+F 0 "#PWR0120" H 7900 2670 50  0001 C CNN
+F 1 "+VDC" H 7900 3045 50  0000 C CNN
+F 2 "" H 7900 2770 50  0001 C CNN
+F 3 "" H 7900 2770 50  0001 C CNN
+	1    7900 2770
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+VDC #PWR0121
+U 1 1 5CEDACFA
+P 8310 2780
+F 0 "#PWR0121" H 8310 2680 50  0001 C CNN
+F 1 "+VDC" H 8310 3055 50  0000 C CNN
+F 2 "" H 8310 2780 50  0001 C CNN
+F 3 "" H 8310 2780 50  0001 C CNN
+	1    8310 2780
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+VDC #PWR0122
+U 1 1 5CEDB156
+P 8670 2790
+F 0 "#PWR0122" H 8670 2690 50  0001 C CNN
+F 1 "+VDC" H 8670 3065 50  0000 C CNN
+F 2 "" H 8670 2790 50  0001 C CNN
+F 3 "" H 8670 2790 50  0001 C CNN
+	1    8670 2790
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+VDC #PWR0123
+U 1 1 5CEDB629
+P 9040 2770
+F 0 "#PWR0123" H 9040 2670 50  0001 C CNN
+F 1 "+VDC" H 9040 3045 50  0000 C CNN
+F 2 "" H 9040 2770 50  0001 C CNN
+F 3 "" H 9040 2770 50  0001 C CNN
+	1    9040 2770
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+VDC #PWR0124
+U 1 1 5CEDBB13
+P 9340 2770
+F 0 "#PWR0124" H 9340 2670 50  0001 C CNN
+F 1 "+VDC" H 9340 3045 50  0000 C CNN
+F 2 "" H 9340 2770 50  0001 C CNN
+F 3 "" H 9340 2770 50  0001 C CNN
+	1    9340 2770
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+VDC #PWR0125
+U 1 1 5CEDBEEE
+P 9650 2770
+F 0 "#PWR0125" H 9650 2670 50  0001 C CNN
+F 1 "+VDC" H 9650 3045 50  0000 C CNN
+F 2 "" H 9650 2770 50  0001 C CNN
+F 3 "" H 9650 2770 50  0001 C CNN
+	1    9650 2770
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+VDC #PWR0126
+U 1 1 5CEDC22F
+P 10070 2770
+F 0 "#PWR0126" H 10070 2670 50  0001 C CNN
+F 1 "+VDC" H 10070 3045 50  0000 C CNN
+F 2 "" H 10070 2770 50  0001 C CNN
+F 3 "" H 10070 2770 50  0001 C CNN
+	1    10070 2770
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7370 3790 7180 3790
+Wire Wire Line
+	7180 3790 7180 4020
+Wire Wire Line
+	7740 4010 7740 3770
+Wire Wire Line
+	7740 3770 7900 3770
+Wire Wire Line
+	8310 3780 8160 3780
+Wire Wire Line
+	8160 3780 8160 3990
+Wire Wire Line
+	8520 3980 8520 3790
+Wire Wire Line
+	8520 3790 8670 3790
+Wire Wire Line
+	8860 3960 8860 3770
+Wire Wire Line
+	8860 3770 9040 3770
+Wire Wire Line
+	9340 3770 9190 3770
+Wire Wire Line
+	9190 3770 9190 3980
+Wire Wire Line
+	9930 3770 10070 3770
+Wire Wire Line
+	9650 3770 9520 3770
+Wire Wire Line
+	9520 3770 9520 3970
+$Comp
+L power:+VDC #PWR0127
+U 1 1 5CEE3771
+P 8320 860
+F 0 "#PWR0127" H 8320 760 50  0001 C CNN
+F 1 "+VDC" H 8320 1135 50  0000 C CNN
+F 2 "" H 8320 860 50  0001 C CNN
+F 3 "" H 8320 860 50  0001 C CNN
+	1    8320 860 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7630 4110 7740 4110
+Wire Wire Line
+	8110 4090 8160 4090
+Wire Wire Line
+	8830 4060 8860 4060
+Wire Wire Line
+	9140 4080 9190 4080
+Wire Wire Line
+	9460 4070 9520 4070
+Wire Wire Line
+	9850 4070 9930 4070
+Text Label 7180 3900 0    50   ~ 0
+VOUT1
+Text Label 7740 3880 0    50   ~ 0
+VOUT2
+Text Label 8160 3870 0    50   ~ 0
+VOUT3
+Text Label 8520 3860 0    50   ~ 0
+VOUT4
+Text Label 8860 3830 0    50   ~ 0
+VOUT5
+Text Label 9190 3830 0    50   ~ 0
+VOUT6
+Text Label 9520 3860 0    50   ~ 0
+VOUT7
+$Comp
+L ESP32_Controller-rescue:3544-2-Keystone_Fuse F1
+U 1 1 5CF01825
+P 7370 3290
+F 0 "F1" V 7324 3420 50  0000 L CNN
+F 1 "3544-2" V 7415 3420 50  0000 L CNN
+F 2 "Keystone_Fuse:FUSE_3544-2" H 7370 3290 50  0001 L BNN
+F 3 "" H 7370 3290 50  0001 L BNN
+F 4 "3544-2" H 7370 3290 50  0001 L BNN "Field4"
+F 5 "None" H 7370 3290 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 7370 3290 50  0001 L BNN "Field6"
+F 7 "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses" H 7370 3290 50  0001 L BNN "Field7"
+F 8 "Keystone Electronics" H 7370 3290 50  0001 L BNN "Field8"
+	1    7370 3290
+	0    1    1    0   
+$EndComp
+$Comp
+L ESP32_Controller-rescue:3544-2-Keystone_Fuse F2
+U 1 1 5CF1AED7
+P 7900 3270
+F 0 "F2" V 7854 3400 50  0000 L CNN
+F 1 "3544-2" V 7945 3400 50  0000 L CNN
+F 2 "Keystone_Fuse:FUSE_3544-2" H 7900 3270 50  0001 L BNN
+F 3 "" H 7900 3270 50  0001 L BNN
+F 4 "3544-2" H 7900 3270 50  0001 L BNN "Field4"
+F 5 "None" H 7900 3270 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 7900 3270 50  0001 L BNN "Field6"
+F 7 "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses" H 7900 3270 50  0001 L BNN "Field7"
+F 8 "Keystone Electronics" H 7900 3270 50  0001 L BNN "Field8"
+	1    7900 3270
+	0    1    1    0   
+$EndComp
+$Comp
+L ESP32_Controller-rescue:3544-2-Keystone_Fuse F3
+U 1 1 5CF1B56C
+P 8310 3280
+F 0 "F3" V 8264 3410 50  0000 L CNN
+F 1 "3544-2" V 8355 3410 50  0000 L CNN
+F 2 "Keystone_Fuse:FUSE_3544-2" H 8310 3280 50  0001 L BNN
+F 3 "" H 8310 3280 50  0001 L BNN
+F 4 "3544-2" H 8310 3280 50  0001 L BNN "Field4"
+F 5 "None" H 8310 3280 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 8310 3280 50  0001 L BNN "Field6"
+F 7 "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses" H 8310 3280 50  0001 L BNN "Field7"
+F 8 "Keystone Electronics" H 8310 3280 50  0001 L BNN "Field8"
+	1    8310 3280
+	0    1    1    0   
+$EndComp
+$Comp
+L ESP32_Controller-rescue:3544-2-Keystone_Fuse F4
+U 1 1 5CF1BC61
+P 8670 3290
+F 0 "F4" V 8624 3420 50  0000 L CNN
+F 1 "3544-2" V 8715 3420 50  0000 L CNN
+F 2 "Keystone_Fuse:FUSE_3544-2" H 8670 3290 50  0001 L BNN
+F 3 "" H 8670 3290 50  0001 L BNN
+F 4 "3544-2" H 8670 3290 50  0001 L BNN "Field4"
+F 5 "None" H 8670 3290 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 8670 3290 50  0001 L BNN "Field6"
+F 7 "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses" H 8670 3290 50  0001 L BNN "Field7"
+F 8 "Keystone Electronics" H 8670 3290 50  0001 L BNN "Field8"
+	1    8670 3290
+	0    1    1    0   
+$EndComp
+$Comp
+L ESP32_Controller-rescue:3544-2-Keystone_Fuse F5
+U 1 1 5CF1C394
+P 9040 3270
+F 0 "F5" V 8994 3400 50  0000 L CNN
+F 1 "3544-2" V 9085 3400 50  0000 L CNN
+F 2 "Keystone_Fuse:FUSE_3544-2" H 9040 3270 50  0001 L BNN
+F 3 "" H 9040 3270 50  0001 L BNN
+F 4 "3544-2" H 9040 3270 50  0001 L BNN "Field4"
+F 5 "None" H 9040 3270 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 9040 3270 50  0001 L BNN "Field6"
+F 7 "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses" H 9040 3270 50  0001 L BNN "Field7"
+F 8 "Keystone Electronics" H 9040 3270 50  0001 L BNN "Field8"
+	1    9040 3270
+	0    1    1    0   
+$EndComp
+$Comp
+L ESP32_Controller-rescue:3544-2-Keystone_Fuse F6
+U 1 1 5CF1DDDD
+P 9340 3270
+F 0 "F6" V 9294 3400 50  0000 L CNN
+F 1 "3544-2" V 9385 3400 50  0000 L CNN
+F 2 "Keystone_Fuse:FUSE_3544-2" H 9340 3270 50  0001 L BNN
+F 3 "" H 9340 3270 50  0001 L BNN
+F 4 "3544-2" H 9340 3270 50  0001 L BNN "Field4"
+F 5 "None" H 9340 3270 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 9340 3270 50  0001 L BNN "Field6"
+F 7 "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses" H 9340 3270 50  0001 L BNN "Field7"
+F 8 "Keystone Electronics" H 9340 3270 50  0001 L BNN "Field8"
+	1    9340 3270
+	0    1    1    0   
+$EndComp
+$Comp
+L ESP32_Controller-rescue:3544-2-Keystone_Fuse F7
+U 1 1 5CF1EBF6
+P 9650 3270
+F 0 "F7" V 9604 3400 50  0000 L CNN
+F 1 "3544-2" V 9695 3400 50  0000 L CNN
+F 2 "Keystone_Fuse:FUSE_3544-2" H 9650 3270 50  0001 L BNN
+F 3 "" H 9650 3270 50  0001 L BNN
+F 4 "3544-2" H 9650 3270 50  0001 L BNN "Field4"
+F 5 "None" H 9650 3270 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 9650 3270 50  0001 L BNN "Field6"
+F 7 "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses" H 9650 3270 50  0001 L BNN "Field7"
+F 8 "Keystone Electronics" H 9650 3270 50  0001 L BNN "Field8"
+	1    9650 3270
+	0    1    1    0   
+$EndComp
+$Comp
+L ESP32_Controller-rescue:3544-2-Keystone_Fuse F8
+U 1 1 5CF1F1DF
+P 10070 3270
+F 0 "F8" V 10024 3400 50  0000 L CNN
+F 1 "3544-2" V 10115 3400 50  0000 L CNN
+F 2 "Keystone_Fuse:FUSE_3544-2" H 10070 3270 50  0001 L BNN
+F 3 "" H 10070 3270 50  0001 L BNN
+F 4 "3544-2" H 10070 3270 50  0001 L BNN "Field4"
+F 5 "None" H 10070 3270 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 10070 3270 50  0001 L BNN "Field6"
+F 7 "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses" H 10070 3270 50  0001 L BNN "Field7"
+F 8 "Keystone Electronics" H 10070 3270 50  0001 L BNN "Field8"
+	1    10070 3270
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9930 3970 9930 3770
+Text Label 9930 3830 0    50   ~ 0
+VOUT8
+$Comp
+L ESP32_Controller-rescue:ESP32-DEVKITC-ESP32_DEVKITC U1
+U 1 1 5CEC58F4
+P 6180 2610
+F 0 "U1" H 6180 4077 50  0000 C CNN
+F 1 "ESP32-DEVKITC" H 6180 3986 50  0000 C CNN
+F 2 "ESP32_DEVKITC:XCVR_ESP32-DEVKITC" H 6180 2610 50  0001 L BNN
+F 3 "" H 6180 2610 50  0001 L BNN
+F 4 "ESP32-DEVKITC" H 6180 2610 50  0001 L BNN "Field4"
+F 5 "Unavailable" H 6180 2610 50  0001 L BNN "Field5"
+F 6 "None" H 6180 2610 50  0001 L BNN "Field6"
+F 7 "Olimex LTD" H 6180 2610 50  0001 L BNN "Field7"
+F 8 "Module: development kit; Ciphering: AES, WPA, WPA2-PSK, WPS" H 6180 2610 50  0001 L BNN "Field8"
+	1    6180 2610
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5CEFB0E2
+P 6990 4330
+F 0 "#PWR04" H 6990 4080 50  0001 C CNN
+F 1 "GND" H 6995 4157 50  0000 C CNN
+F 2 "" H 6990 4330 50  0001 C CNN
+F 3 "" H 6990 4330 50  0001 C CNN
+	1    6990 4330
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6990 4330 6890 4330
+Wire Wire Line
+	6890 4330 6890 4480
+Wire Wire Line
+	6890 4480 6780 4480
+$Comp
+L power:+5V #PWR01
+U 1 1 5CEFCD0C
+P 4430 4380
+F 0 "#PWR01" H 4430 4230 50  0001 C CNN
+F 1 "+5V" H 4445 4553 50  0000 C CNN
+F 2 "" H 4430 4380 50  0001 C CNN
+F 3 "" H 4430 4380 50  0001 C CNN
+	1    4430 4380
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5CEFD7EC
+P 4430 5280
+F 0 "#PWR02" H 4430 5030 50  0001 C CNN
+F 1 "GND" H 4435 5107 50  0000 C CNN
+F 2 "" H 4430 5280 50  0001 C CNN
+F 3 "" H 4430 5280 50  0001 C CNN
+	1    4430 5280
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4220 4680 4430 4680
+Wire Wire Line
+	3900 5080 4430 5080
+Wire Wire Line
+	3900 2510 5580 2510
+Wire Wire Line
+	4280 3110 5580 3110
+Wire Wire Line
+	4220 3010 5580 3010
+Wire Wire Line
+	4150 2910 5580 2910
+Wire Wire Line
+	4280 3110 4280 4480
+Wire Wire Line
+	4280 4480 4430 4480
+Wire Wire Line
+	4150 2910 4150 4580
+Wire Wire Line
+	4150 4580 4430 4580
+Wire Wire Line
+	4220 4680 4220 3010
+Wire Wire Line
+	4070 4780 4070 2710
+Wire Wire Line
+	4070 4780 4430 4780
+Wire Wire Line
+	4070 2710 5580 2710
+Wire Wire Line
+	4020 4880 4020 2610
+Wire Wire Line
+	4020 4880 4430 4880
+Wire Wire Line
+	4020 2610 5580 2610
+Wire Wire Line
+	3800 2410 3800 4980
+Wire Wire Line
+	3800 4980 4430 4980
+Wire Wire Line
+	3800 2410 5580 2410
+Wire Wire Line
+	3900 5080 3900 2510
+Wire Wire Line
+	5580 3210 3700 3210
+Wire Wire Line
+	3700 3210 3700 5180
+Wire Wire Line
+	3700 5180 4430 5180
+$Comp
+L Connector_Generic:Conn_01x02 J10
+U 1 1 5CFE2351
+P 7520 960
+F 0 "J10" H 7600 952 50  0000 L CNN
+F 1 "Conn_01x02" H 7600 861 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7520 960 50  0001 C CNN
+F 3 "~" H 7520 960 50  0001 C CNN
+	1    7520 960 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0129
+U 1 1 5CFE34D2
+P 7120 960
+F 0 "#PWR0129" H 7120 810 50  0001 C CNN
+F 1 "+5V" H 7135 1133 50  0000 C CNN
+F 2 "" H 7120 960 50  0001 C CNN
+F 3 "" H 7120 960 50  0001 C CNN
+	1    7120 960 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7320 960  7120 960 
+$Comp
+L ESP32_Controller-rescue:3544-2-Keystone_Fuse F9
+U 1 1 5CFED4B7
+P 7940 1760
+F 0 "F9" V 7894 1890 50  0000 L CNN
+F 1 "3544-2" V 7985 1890 50  0000 L CNN
+F 2 "Keystone_Fuse:FUSE_3544-2" H 7940 1760 50  0001 L BNN
+F 3 "" H 7940 1760 50  0001 L BNN
+F 4 "3544-2" H 7940 1760 50  0001 L BNN "Field4"
+F 5 "None" H 7940 1760 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 7940 1760 50  0001 L BNN "Field6"
+F 7 "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses" H 7940 1760 50  0001 L BNN "Field7"
+F 8 "Keystone Electronics" H 7940 1760 50  0001 L BNN "Field8"
+	1    7940 1760
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 1760 9570 1760
+Connection ~ 9570 1760
+Wire Wire Line
+	9570 1760 9760 1760
+Wire Wire Line
+	8440 1760 8570 1760
+Connection ~ 8570 1760
+Wire Wire Line
+	8570 1760 8800 1760
+Text Label 8670 1760 0    50   ~ 0
+VIN
+Text Label 7320 1060 0    50   ~ 0
+VIN
+$Comp
+L Device:C C3
+U 1 1 5D07F3F1
+P 6780 4330
+F 0 "C3" H 6895 4376 50  0000 L CNN
+F 1 "0.1uF" H 6895 4285 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 6818 4180 50  0001 C CNN
+F 3 "~" H 6780 4330 50  0001 C CNN
+	1    6780 4330
+	1    0    0    -1  
+$EndComp
+Connection ~ 6780 4480
+$Comp
+L power:+5V #PWR0110
+U 1 1 5D08F943
+P 6780 4180
+F 0 "#PWR0110" H 6780 4030 50  0001 C CNN
+F 1 "+5V" H 6795 4353 50  0000 C CNN
+F 2 "" H 6780 4180 50  0001 C CNN
+F 3 "" H 6780 4180 50  0001 C CNN
+	1    6780 4180
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6780 4180 6630 4180
+Wire Wire Line
+	6630 4180 6630 4380
+Connection ~ 6780 4180
+Wire Wire Line
+	7180 4120 7090 4120
+$Comp
+L Device:R_Pack04_SIP RN1
+U 1 1 5CF73737
+P 7690 4990
+F 0 "RN1" V 7648 5195 50  0000 L CNN
+F 1 "100" V 7739 5195 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 8365 4990 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 7690 4990 50  0001 C CNN
+	1    7690 4990
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_SIP RN2
+U 1 1 5CF7467E
+P 9660 5030
+F 0 "RN2" V 9618 5235 50  0000 L CNN
+F 1 "100" V 9709 5235 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 10335 5030 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9660 5030 50  0001 C CNN
+	1    9660 5030
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7090 4120 7090 4490
+Wire Wire Line
+	7090 4490 7490 4490
+Wire Wire Line
+	7630 4110 7630 4310
+Wire Wire Line
+	7630 4310 7280 4310
+Wire Wire Line
+	7280 4310 7280 4790
+Wire Wire Line
+	7280 4790 7490 4790
+Wire Wire Line
+	8110 4090 8110 4360
+Wire Wire Line
+	8110 4360 7360 4360
+Wire Wire Line
+	7360 4360 7360 5090
+Wire Wire Line
+	7360 5090 7490 5090
+Wire Wire Line
+	8440 4080 8440 4410
+Wire Wire Line
+	8440 4410 7450 4410
+Wire Wire Line
+	7450 4410 7450 5390
+Wire Wire Line
+	7450 5390 7490 5390
+Wire Wire Line
+	8440 4080 8520 4080
+Wire Wire Line
+	9850 4070 9850 4430
+Wire Wire Line
+	9850 4430 9410 4430
+Wire Wire Line
+	9410 4430 9410 5530
+Wire Wire Line
+	9410 5530 9460 5530
+Wire Wire Line
+	9460 4070 9460 4340
+Wire Wire Line
+	9460 4340 9330 4340
+Wire Wire Line
+	6780 4480 6630 4480
+$Comp
+L ESP32_Controller-rescue:SN74HCT245N-SN74HCT245N U3
+U 1 1 5CECF5A3
+P 4430 4380
+F 0 "U3" H 5530 4767 60  0000 C CNN
+F 1 "SN74HCT245N" H 5530 4661 60  0000 C CNN
+F 2 "SN74HCT245N:SN74HCT245N" H 5530 4620 60  0001 C CNN
+F 3 "" H 4430 4380 60  0000 C CNN
+	1    4430 4380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6630 5280 7190 5280
+Wire Wire Line
+	7190 5280 7190 4590
+Wire Wire Line
+	7190 4590 7490 4590
+Wire Wire Line
+	7490 4890 7110 4890
+Wire Wire Line
+	7110 4890 7110 5180
+Wire Wire Line
+	7110 5180 6630 5180
+Wire Wire Line
+	6630 5080 7280 5080
+Wire Wire Line
+	7280 5080 7280 5190
+Wire Wire Line
+	7280 5190 7490 5190
+Wire Wire Line
+	7490 5490 7020 5490
+Wire Wire Line
+	7020 5490 7020 4980
+Wire Wire Line
+	7020 4980 6630 4980
+Wire Wire Line
+	6630 4880 6930 4880
+Wire Wire Line
+	6930 4880 6930 5620
+Wire Wire Line
+	6930 5620 7960 5620
+Wire Wire Line
+	6630 4780 6860 4780
+Wire Wire Line
+	6860 4780 6860 5680
+Wire Wire Line
+	6860 5680 8060 5680
+Wire Wire Line
+	6630 4680 6770 4680
+Wire Wire Line
+	6770 4680 6770 5750
+Wire Wire Line
+	6770 5750 8160 5750
+Wire Wire Line
+	6630 4580 6690 4580
+Wire Wire Line
+	6690 4580 6690 5820
+Wire Wire Line
+	6690 5820 8240 5820
+Wire Wire Line
+	8240 5820 8240 5430
+Wire Wire Line
+	9460 4630 8830 4630
+Wire Wire Line
+	8830 4060 8830 4630
+Wire Wire Line
+	9460 4930 9140 4930
+Wire Wire Line
+	9460 5230 9330 5230
+Wire Wire Line
+	9330 4340 9330 5230
+Wire Wire Line
+	9140 4080 9140 4930
+Wire Wire Line
+	9460 5430 8240 5430
+Wire Wire Line
+	9460 5130 8160 5130
+Wire Wire Line
+	8160 5130 8160 5750
+Wire Wire Line
+	9460 4830 8060 4830
+Wire Wire Line
+	8060 4830 8060 5680
+Wire Wire Line
+	9460 4530 7960 4530
+Wire Wire Line
+	7960 4530 7960 5620
+$Comp
+L Device:LED D1
+U 1 1 5CF66615
+P 10340 1720
+F 0 "D1" V 10379 1603 50  0000 R CNN
+F 1 "Red" V 10288 1603 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 10340 1720 50  0001 C CNN
+F 3 "~" H 10340 1720 50  0001 C CNN
+	1    10340 1720
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5CF6863E
+P 10340 2020
+F 0 "R1" H 10410 2066 50  0000 L CNN
+F 1 "330" H 10410 1975 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10270 2020 50  0001 C CNN
+F 3 "~" H 10340 2020 50  0001 C CNN
+	1    10340 2020
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR03
+U 1 1 5CF69245
+P 10340 1570
+F 0 "#PWR03" H 10340 1420 50  0001 C CNN
+F 1 "+5V" H 10355 1743 50  0000 C CNN
+F 2 "" H 10340 1570 50  0001 C CNN
+F 3 "" H 10340 1570 50  0001 C CNN
+	1    10340 1570
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5CF69979
+P 10340 2170
+F 0 "#PWR05" H 10340 1920 50  0001 C CNN
+F 1 "GND" H 10345 1997 50  0000 C CNN
+F 2 "" H 10340 2170 50  0001 C CNN
+F 3 "" H 10340 2170 50  0001 C CNN
+	1    10340 2170
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

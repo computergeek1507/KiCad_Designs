@@ -1,0 +1,27 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Field8,Field4,Field7,Field6,Field5
+1,Unpolarized capacitor,C,C3,0.1uF,C_Rect_L7.0mm_W2.0mm_P5.00mm,1,~,,,,,
+2,Polarized capacitor,CP,C1,100uF,CP_Radial_D8.0mm_P3.50mm,1,~,,,,,
+3,Polarized capacitor,CP,C2,10uF,CP_Radial_D5.0mm_P2.00mm,1,~,,,,,
+4,,3544-2-Keystone_Fuse,F1 F2 F3 F4 F5 F6 F7 F8 F9,3544-2,FUSE_3544-2,9,None,Keystone Electronics,3544-2,Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses,Unavailable,None
+5,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J10,Conn_01x02,PinHeader_1x02_P2.54mm_Vertical,1,~,,,,,
+6,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J9,Conn_01x02,TerminalBlock_MetzConnect_Type701_RT11L02HGLU_1x02_P6.35mm_Horizontal,1,~,,,,,
+7,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x03,J1 J2 J3 J4 J5 J6 J7 J8,Conn_01x03,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",8,~,,,,,
+8,Resistor,R,R1 R2 R3 R4 R5 R6 R7 R8,R,R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical,8,~,,,,,
+9,,ESP32-DEVKITC-ESP32_DEVKITC,U1,ESP32-DEVKITC,XCVR_ESP32-DEVKITC,1,None,"Module: development kit; Ciphering: AES, WPA, WPA2-PSK, WPS",ESP32-DEVKITC,Olimex LTD,None,Unavailable
+10,"Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220",LM7805_TO220,U2,LM7805_TO220,TO-220-3_Vertical,1,http://www.fairchildsemi.com/ds/LM/LM7805.pdf,,,,,
+11,,SN74HCT245N-SN74HCT245N,U3,SN74HCT245N,SN74HCT245N,1,,,,,,
+
+
+
+
+
+Component Groups:,11
+Component Count:,33
+Fitted Components:,33
+Number of PCBs:,1
+Total components:,33
+Schematic Version:,
+Schematic Date:,
+BoM Date:,5/28/2019 10:10:51 AM
+Schematic Source:,C:\Users\scott.hanson\Google Drive\KICAD\ESP32_Controller_v2\ESP32_Controller.sch
+KiCad Version:,Eeschema (5.1.2)-1
