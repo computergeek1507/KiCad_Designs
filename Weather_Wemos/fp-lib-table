@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name wemos-d1-mini)(type KiCad)(uri ${KIPRJMOD}/libraries/wemos-d1-mini.pretty)(options "")(descr ""))
+  (lib (name Weather_Wemos)(type KiCad)(uri ${KIPRJMOD}/libraries/Weather_Wemos.pretty)(options "")(descr ""))
+)
