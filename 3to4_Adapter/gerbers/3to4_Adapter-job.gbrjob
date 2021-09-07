@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.10)-1"
     },
-    "CreationDate":  "2021-09-03T20:41:02-04:00"
+    "CreationDate":  "2021-09-06T21:49:58-04:00"
   },
   "GeneralSpecs":
   {
@@ -15,7 +15,7 @@
     {
       "Name": "3to4_Adapter",
       "GUID": "33746f34-5f41-4646-9170-7465722e6b69",
-      "Revision": "v1"
+      "Revision": "v2"
     },
     "Size":
     {
