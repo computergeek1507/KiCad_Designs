@@ -11,8 +11,6 @@ ESP8266 Doorbell Adapter, measures doorbell switch voltage and sends notificatio
 
 To order your own PCB upload the gerber.zip file to your favorite PCB manufacture of choice, I personally use [jlcpcb.com](https://jlcpcb.com/).
 
-## [Part BOM](https://github.com/computergeek1507/PB_16/raw/master/PB16_Bom.ods)
-
 ## [Arduino Source Code](https://raw.githubusercontent.com/computergeek1507/arduino/master/ESPMQTT/ESPMQTT.ino)
 
 ![Image Doorbell](https://github.com/computergeek1507/KiCad_Designs/raw/master/Doorbell/Doorbell.png)
