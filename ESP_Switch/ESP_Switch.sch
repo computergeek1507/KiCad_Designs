@@ -664,13 +664,13 @@ $EndComp
 $Comp
 L Connector:Screw_Terminal_01x02 J3
 U 1 1 5CC573E8
-P 6725 4495
-F 0 "J3" H 6805 4487 50  0000 L CNN
-F 1 "IO" H 6805 4396 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 6725 4495 50  0001 C CNN
-F 3 "~" H 6725 4495 50  0001 C CNN
-	1    6725 4495
-	1    0    0    -1  
+P 6725 4595
+F 0 "J3" H 6805 4587 50  0000 L CNN
+F 1 "IO" H 6805 4496 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 6725 4595 50  0001 C CNN
+F 3 "~" H 6725 4595 50  0001 C CNN
+	1    6725 4595
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	6050 4495 6465 4495
