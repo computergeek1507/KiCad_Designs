@@ -11,4 +11,4 @@ Breakout board for the Wemos D1 Mini to use it with the [Sparkfun Weather Meter 
 
 To order your own PCB upload the gerber.zip file to your favorite PCB manufacture of choice, I personally use [jlcpcb.com](https://jlcpcb.com/).
 
-![Image of Rec Converter](https://github.com/computergeek1507/KiCad_Designs/raw/master/Weather_Wemos/Weather_Wemos.png)
+![Image of Weather Wemos](https://github.com/computergeek1507/KiCad_Designs/raw/master/Weather_Wemos/Weather_Wemos.png)
