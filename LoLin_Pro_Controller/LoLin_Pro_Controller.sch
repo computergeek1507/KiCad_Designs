@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Lolin Pro Controller"
-Date "2021-09-07"
-Rev "v1"
+Date "2021-09-23"
+Rev "v2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -848,4 +848,56 @@ Wire Wire Line
 	2780 3240 2780 4870
 Wire Wire Line
 	2780 4870 3360 4870
+$Comp
+L Connector:Conn_01x04_Female J7
+U 1 1 614DFC49
+P 5255 1755
+F 0 "J7" H 5147 2040 50  0000 C CNN
+F 1 "OLED" H 5147 1949 50  0000 C CNN
+F 2 "OLED-SSD1306-128X64-I2C:OLED-SSD1306-128X64-I2C-THT" H 5255 1755 50  0001 C CNN
+F 3 "~" H 5255 1755 50  0001 C CNN
+	1    5255 1755
+	-1   0    0    -1  
+$EndComp
+Text GLabel 5455 1655 2    50   Input ~ 0
+I2C_SDA
+Text GLabel 5455 1755 2    50   Input ~ 0
+I2C_SCL
+$Comp
+L power:GND #PWR08
+U 1 1 614E8F64
+P 5455 1955
+F 0 "#PWR08" H 5455 1705 50  0001 C CNN
+F 1 "GND" V 5455 1705 50  0000 C CNN
+F 2 "" H 5455 1955 50  0001 C CNN
+F 3 "" H 5455 1955 50  0001 C CNN
+	1    5455 1955
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR07
+U 1 1 614ECE34
+P 5455 1855
+F 0 "#PWR07" H 5455 1705 50  0001 C CNN
+F 1 "+3.3V" V 5455 2005 50  0000 L CNN
+F 2 "" H 5455 1855 50  0001 C CNN
+F 3 "" H 5455 1855 50  0001 C CNN
+	1    5455 1855
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR09
+U 1 1 614F1EC8
+P 3630 3840
+F 0 "#PWR09" H 3630 3690 50  0001 C CNN
+F 1 "+3.3V" V 3630 3990 50  0000 L CNN
+F 2 "" H 3630 3840 50  0001 C CNN
+F 3 "" H 3630 3840 50  0001 C CNN
+	1    3630 3840
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4330 3340 2    50   Input ~ 0
+I2C_SDA
+Text GLabel 4330 3640 2    50   Input ~ 0
+I2C_SCL
 $EndSCHEMATC
