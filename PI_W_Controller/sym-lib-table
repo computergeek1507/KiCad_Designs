@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "PI_W_Controller-rescue")(type "Legacy")(uri "${KIPRJMOD}/PI_W_Controller-rescue.lib")(options "")(descr ""))
+  (lib (name "Barrier_Blocks")(type "Legacy")(uri "${KIPRJMOD}/libraries/Barrier_Blocks/Barrier_Blocks.lib")(options "")(descr ""))
+)
