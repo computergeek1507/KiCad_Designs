@@ -1,4 +1,4 @@
-19832417016048987
+19829145075284012
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59356,20 +59356,6 @@ NetTie
 NetTie-4_THT_Pad1.0mm
 Net tie, 4 pin, 1.0mm round THT pads
 net tie
-0
-4
-4
-OLED-SSD1306-128X64-I2C
-OLED-SSD1306-128X64-I2C
-
-Header 1x19
-0
-4
-4
-OLED-SSD1306-128X64-I2C
-OLED-SSD1306-128X64-I2C-THT
-
-Header 1x19
 0
 4
 4
