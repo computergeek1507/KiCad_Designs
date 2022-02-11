@@ -1,4 +1,4 @@
-(kicad_sch (version 20210621) (generator eeschema)
+(kicad_sch (version 20211123) (generator eeschema)
 
   (uuid 52eeffd7-83d3-4391-a72b-d67336281d87)
 
@@ -6,8 +6,8 @@
 
   (title_block
     (title "PI Zero Controller")
-    (date "2021-11-03")
-    (rev "v1")
+    (date "2022-02-10")
+    (rev "v2")
     (company "Scott Hanson")
   )
 
@@ -540,7 +540,8 @@
           (stroke (width 0.508) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (circle (center 0 3.175) (radius 1.905)           (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (circle (center 0 3.175) (radius 1.905)
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
       )
@@ -593,8 +594,12 @@
     )
   )
 
-  (junction (at 133.858 112.014) (diameter 0) (color 0 0 0 0))
-  (junction (at 133.858 104.394) (diameter 0) (color 0 0 0 0))
+  (junction (at 133.858 112.014) (diameter 0) (color 0 0 0 0)
+    (uuid 47993d80-a37e-426e-90c9-fd54b49ed166)
+  )
+  (junction (at 133.858 104.394) (diameter 0) (color 0 0 0 0)
+    (uuid fb9a832c-737d-49fb-bbb4-29a0ba3e8178)
+  )
 
   (wire (pts (xy 211.582 109.474) (xy 211.582 101.6))
     (stroke (width 0) (type default) (color 0 0 0 0))
