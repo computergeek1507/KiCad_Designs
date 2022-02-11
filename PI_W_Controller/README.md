@@ -9,7 +9,7 @@ You may redistribute and modify this documentation under the terms of the CERN O
 
 8 Port Controller for a Raspberry PI Zero/ Zero W. The design was made with all through hole components for easy assembly by most users. Open source applications were used to create this controller. [KiCad](http://kicad-pcb.org/) was used for the PCB design, and [LibreOffice](https://www.libreoffice.org/) for the documentation.
 
-Developed with KiCad 6 Nightly(5.99).
+Developed with KiCad 6.
 
 To order your own PCB upload the gerber.zip file to your favorite PCB manufacture of choice, I personally use [jlcpcb.com](https://jlcpcb.com/).
 
