@@ -7,7 +7,7 @@ You may redistribute and modify this documentation under the terms of the CERN O
 
 # PiOLED
 
-OLED breakout for a Raspberry Pi. The design was made with all through hole components for easy assembly by most users. Open source applications were used to create this PCB. [KiCad](http://kicad-pcb.org/) was used for the PCB design, and [LibreOffice](https://www.libreoffice.org/) for the documentation.
+OLED breakout for a Raspberry Pi. The design was made with all through hole components for easy assembly by most users. Open source applications were used to create this PCB. [KiCad](http://kicad.org/) was used for the PCB design, and [LibreOffice](https://www.libreoffice.org/) for the documentation.
 
 To order your own PCB upload the gerber.zip file to your favorite PCB manufacture of choice, I personally use [jlcpcb.com](https://jlcpcb.com/).
 
