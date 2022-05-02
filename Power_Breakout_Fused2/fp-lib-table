@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "3544-2")(type "KiCad")(uri "${KIPRJMOD}/libraries/Fuse/Fuse_3544_2.pretty")(options "")(descr ""))
+  (lib (name "TE_1761469-1")(type "KiCad")(uri "${KIPRJMOD}/libraries/TE_1761469-1")(options "")(descr ""))
+)
