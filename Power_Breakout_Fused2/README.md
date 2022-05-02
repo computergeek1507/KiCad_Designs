@@ -21,4 +21,4 @@ Power Fused Breakout Board for HP Power Supply
 | R2          |  1  | RES 1K OHM 1/4W 5%       | CF14JT1K00CT-ND | Stackpole Electronics | CF14JT1K00      |
 -->
 
-![Image of Power Breakout](https://github.com/computergeek1507/KiCad_Designs/raw/master/Power_Breakout_Fused/Power_Breakout.png)
+![Image of Power Breakout](https://github.com/computergeek1507/KiCad_Designs/raw/master/Power_Breakout_Fused2/Power_Breakout.png)
