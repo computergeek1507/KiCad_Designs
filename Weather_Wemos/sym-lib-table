@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name wemos_mini)(type Legacy)(uri ${KIPRJMOD}/libraries/wemos_mini.lib)(options "")(descr ""))
+  (lib (name "wemos_mini")(type "Legacy")(uri "${KIPRJMOD}/libraries/wemos_mini.lib")(options "")(descr ""))
+  (lib (name "Weather_Wemos-rescue")(type "Legacy")(uri "${KIPRJMOD}/Weather_Wemos-rescue.lib")(options "")(descr ""))
 )
