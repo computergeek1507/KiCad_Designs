@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name 3544-2)(type Legacy)(uri ${KIPRJMOD}/libraries/Fuse/3544-2.lib)(options "")(descr ""))
-  (lib (name Barrier_Blocks)(type Legacy)(uri ${KIPRJMOD}/libraries/Barrier_Blocks/Barrier_Blocks.lib)(options "")(descr ""))
+  (lib (name "3544-2")(type "Legacy")(uri "${KIPRJMOD}/libraries/Fuse/3544-2.lib")(options "")(descr ""))
+  (lib (name "Barrier_Blocks")(type "Legacy")(uri "${KIPRJMOD}/libraries/Barrier_Blocks/Barrier_Blocks.lib")(options "")(descr ""))
+  (lib (name "Power_Distribution-rescue")(type "Legacy")(uri "${KIPRJMOD}/Power_Distribution-rescue.lib")(options "")(descr ""))
 )
