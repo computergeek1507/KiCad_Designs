@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Pixel Boost")
+    (date "2022-12-13")
+    (rev "v1")
+  )
+
   (lib_symbols
     (symbol "74xGxx:74LVC1G17" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -2.54 3.81 0)
