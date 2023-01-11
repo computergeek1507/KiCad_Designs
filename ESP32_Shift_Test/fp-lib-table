@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name "ESP32")(type "KiCad")(uri "${KIPRJMOD}/libraries/ESP32.pretty")(options "")(descr ""))
+  (lib (name "Barrier_Blocks")(type "KiCad")(uri "${KIPRJMOD}/libraries/Barrier_Blocks/Barrier_Blocks.pretty")(options "")(descr ""))
+  (lib (name "MKDS1_2-3.81")(type "KiCad")(uri "${KIPRJMOD}/libraries/MKDS1_2-3.81/MKDS1_2-3.81.pretty")(options "")(descr ""))
+  (lib (name "Converter_DCDC")(type "KiCad")(uri "${KIPRJMOD}/libraries/Converter_DCDC.pretty")(options "")(descr ""))
+  (lib (name "Fuse")(type "KiCad")(uri "${KIPRJMOD}/libraries/Fuse.pretty")(options "")(descr ""))
+  (lib (name "RJ45")(type "KiCad")(uri "${KIPRJMOD}/libraries/RJ45.pretty")(options "")(descr ""))
+)
