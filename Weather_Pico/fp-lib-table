@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Weather_Pico")(type "KiCad")(uri "${KIPRJMOD}/libraries/Weather_Pico.pretty")(options "")(descr ""))
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/libraries/MCU_RaspberryPi_and_Boards/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
+)
