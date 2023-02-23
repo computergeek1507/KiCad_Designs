@@ -13,7 +13,7 @@ To order your own PCB upload the gerber.zip file to your favorite PCB manufactur
 
 ### Features
 * OLED Display header
-* 2 pin GPIO Header for Push Button or Relay Support
+* USB Header to use with EDM RDS mini usb plug.
 * 5v Header
 
 ![Image of PiOLED](https://github.com/computergeek1507/KiCad_Designs/raw/master/PiOled/PiOled.png)
