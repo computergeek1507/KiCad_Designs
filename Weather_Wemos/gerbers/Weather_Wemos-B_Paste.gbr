@@ -1,27 +1,15 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(6.0.5)*
-G04 #@! TF.CreationDate,2022-05-05T21:27:21-04:00*
-G04 #@! TF.ProjectId,Weather_Wemos,57656174-6865-4725-9f57-656d6f732e6b,v1*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(7.0.0)*
+G04 #@! TF.CreationDate,2023-02-26T16:44:04-05:00*
+G04 #@! TF.ProjectId,Weather_Wemos,57656174-6865-4725-9f57-656d6f732e6b,v3*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Paste,Bot*
 G04 #@! TF.FilePolarity,Positive*
-%FSLAX45Y45*%
-G04 Gerber Fmt 4.5, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (6.0.5)) date 2022-05-05 21:27:21*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (7.0.0)) date 2023-02-26 16:44:04*
 %MOMM*%
 %LPD*%
 G01*
 G04 APERTURE LIST*
-G04 #@! TA.AperFunction,Profile*
-%ADD10C,0.050000*%
-G04 #@! TD*
 G04 APERTURE END LIST*
-D10*
-X18100000Y-5900000D02*
-X11900000Y-5900000D01*
-X18100000Y-14400000D02*
-X18100000Y-5900000D01*
-X11900000Y-14400000D02*
-X18100000Y-14400000D01*
-X11900000Y-5900000D02*
-X11900000Y-14400000D01*
 M02*
