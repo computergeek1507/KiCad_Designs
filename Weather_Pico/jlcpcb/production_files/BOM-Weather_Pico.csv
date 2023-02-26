@@ -2,19 +2,17 @@ Comment,Designator,Footprint,LCSC
 RUN,SW1,SW_PUSH_6mm,C127509
 LED,D1,LED_D3.0mm,C2286
 220,R2,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,C22962
-Pico,U1,RPi_Pico_SMD_TH_NO_DEBUG,
-Debug,J7,1x06_Horizontal_SMD,
+Pico,U1,RPi_Pico_SMD_TH,
+BME280,J7,PinHeader_1x04_P2.54mm_Vertical,
 Rain 3 Adv,J3,"TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal",
 10K,R1,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
 Pwr In,J1,"TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",
 100uF,C1,CP_Radial_D5.0mm_P2.50mm,
 10uF,C2,CP_Radial_D5.0mm_P2.50mm,
-MountingHole,H1,MountingHole_3.7mm,
-MountingHole,H2,MountingHole_3.7mm,
-MountingHole,H3,MountingHole_3.7mm,
-MountingHole,H4,MountingHole_3.7mm,
 WIND,J4,RJ12_Amphenol_54601,
 RAIN 1,J5,RJ12_Amphenol_54601,
 Rain 2 Serial,J6,RJ45_Amphenol_54602-x08_Horizontal,
 L7805,U2,TO-220-3_Vertical,
 12V,J2,BarrelJack_Horizontal,
+4.7K,R3,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
+DS18B20,J8,JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,

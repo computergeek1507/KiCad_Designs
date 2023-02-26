@@ -1,16 +1,18 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 C1,100uF,CP_Radial_D5.0mm_P2.50mm,145.0,-128.794887,90.0,top
 C2,10uF,CP_Radial_D5.0mm_P2.50mm,138.794887,-124.0,180.0,top
-D1,LED,LED_D3.0mm,151.865,-122.0,180.0,top
+D1,LED,LED_D3.0mm,151.725,-122.55,180.0,top
 J1,Pwr In,"TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",172.695,-124.5,90.0,top
 J2,12V,BarrelJack_Horizontal,127.0,-127.9575,0.0,top
 J3,Rain 3 Adv,"TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal",124.305,-82.0,-90.0,top
 J4,WIND,RJ12_Amphenol_54601,172.83,-81.23,180.0,top
 J5,RAIN 1,RJ12_Amphenol_54601,156.83,-81.23,180.0,top
 J6,Rain 2 Serial,RJ45_Amphenol_54602-x08_Horizontal,139.7175,-80.9,180.0,top
-J7,Debug,1x06_Horizontal_SMD,179.775,-98.6075,0.0,top
-R1,10K,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,152.0,-92.4,0.0,top
-R2,220,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,160.0,-122.0,180.0,top
+J7,BME280,PinHeader_1x04_P2.54mm_Vertical,178.5,-110.82,0.0,top
+J8,DS18B20,JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,178.875,-97.3,-90.0,top
+R1,10K,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,146.81,-92.3,0.0,top
+R2,220,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,159.94,-122.9,180.0,top
+R3,4.7K,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,173.8,-95.99,90.0,top
 SW1,RUN,SW_PUSH_6mm,165.5,-64.6,180.0,top
-U1,Pico,RPi_Pico_SMD_TH_NO_DEBUG,149.6,-107.1,90.0,top
-U2,L7805,TO-220-3_Vertical,157.46,-127.945,180.0,top
+U1,Pico,RPi_Pico_SMD_TH,146.445,-106.9,90.0,top
+U2,L7805,TO-220-3_Vertical,157.61,-129.045,180.0,top
