@@ -1,10 +1,12 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-C1,100uF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,131.55,-81.5,-90.0,top
+C1,100uF,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,131.9,-81.275,-90.0,top
 C2,10uF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,120.4,-79.2,-90.0,bottom
 C3,10uF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,131.5,-79.0,-90.0,bottom
 C4,0.1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,135.25,-62.9125,90.0,top
 C5,0.1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,123.9,-63.9,0.0,top
 C6,0.1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,127.2,-74.4,90.0,bottom
+J1,PMG,PinHeader_1x06_P2.54mm_Vertical,151.9,-83.2,-90.0,top
+J3,OLED,OLED-SSD1306-128X64-I2C-THT_2HOLE,131.1,-71.5,90.0,top
 R2,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,135.25,-66.3,-90.0,top
 R3,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,135.25,-69.7,-90.0,top
 R4,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,136.3,-82.3,90.0,top
