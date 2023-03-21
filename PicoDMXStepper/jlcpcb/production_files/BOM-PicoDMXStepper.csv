@@ -1,7 +1,11 @@
 Comment,Designator,Footprint,LCSC
+Servo 1,"J6,J7,J8",PinHeader_1x03_P2.54mm_Vertical,C124376
+LTV-214G,"U4,U5",LTV214,C133122
+Stepper Out 2,J5,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,C144395
 Stepper Out,J3,"TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal",C192779
 10uF,C2,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C19702
-220,R1,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C23345
+100,"R7,R8,R9",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C22775
+220,"R1,R10,R11",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C23345
 10K,"R5,R6",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C25804
 DMX Serial,J2,RJ45_Amphenol_54602-x08_Horizontal,C305972
 Pwr In,J1,BARRIER_BLOCK_1ROW_2POS_P8.26MM,C306200

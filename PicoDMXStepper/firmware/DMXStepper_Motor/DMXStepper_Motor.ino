@@ -14,16 +14,16 @@ DmxInput dmxInput;
 volatile uint8_t buffer[DMXINPUT_BUFFER_SIZE(START_CHANNEL, NUM_CHANNELS)];
 
 const byte LED02 = 2;
-const byte stepPin = 13;
-const byte dirPin = 12;
-const byte enPin = 11;
+const byte stepPin = 5;
+const byte dirPin = 4;
+const byte enPin = 9;
 int StepperCurrentAngle {0};
 int currentStepsfrom0 {0};
 float seekingAngle {0.0F};
 float stepsForSeekingAngle {0.0F};
 
 void setup() {
-  dmxInput.begin(5, START_CHANNEL, NUM_CHANNELS);
+  dmxInput.begin(21, START_CHANNEL, NUM_CHANNELS);
 
   pinMode(stepPin,OUTPUT);
   pinMode(dirPin,OUTPUT);
