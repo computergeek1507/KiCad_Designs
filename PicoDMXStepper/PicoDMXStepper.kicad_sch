@@ -2629,7 +2629,7 @@
     (property "Datasheet" "~" (at 34.544 74.803 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C305972" (at 34.544 74.168 0)
+    (property "LCSC" "C2938579" (at 34.544 74.168 0)
       (effects (font (size 1.27 1.27)))
     )
     (pin "1" (uuid da525ebc-625a-44d9-a1dd-17ffda7cddc4))

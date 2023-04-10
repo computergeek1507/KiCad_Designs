@@ -8,7 +8,7 @@ Stepper Out,J3,"TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal",C19277
 120,R3,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C22787
 220,"R1,R10,R11",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C23345
 10K,"R5,R6",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C25804
-DMX Serial,J2,RJ45_Amphenol_54602-x08_Horizontal,C305972
+DMX Serial,J2,RJ45_Amphenol_54602-x08_Horizontal,C2938579
 Pwr In,J1,BARRIER_BLOCK_1ROW_2POS_P8.26MM,C306200
 20K,"R2,R4",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C4184
 100uF,C1,C_Elec_8x10.2,C445063
