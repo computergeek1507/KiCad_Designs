@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "CUI_PJ-041H")(type "KiCad")(uri "${KIPRJMOD}/libraries/CUI_PJ-041H")(options "")(descr ""))
+  (lib (name "Fuse_3544_2")(type "KiCad")(uri "${KIPRJMOD}/libraries/Fuse/Fuse_3544_2.pretty")(options "")(descr ""))
+)
