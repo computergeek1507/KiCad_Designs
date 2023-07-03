@@ -1,0 +1,17 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,100uF,CP_Radial_D5.0mm_P2.50mm,159.6,-131.394887,90.0,top
+C2,10uF,CP_Radial_D5.0mm_P2.50mm,159.6,-124.605112,-90.0,top
+D1,LED,LED_D3.0mm,151.465,-123.1,0.0,top
+J1,Pwr In,"TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",126.3,-130.4,-90.0,top
+J2,12V,BarrelJack_Horizontal,174.5,-126.8,180.0,top
+J3,Rain 3 Adv,"TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal",124.305,-82.0,-90.0,top
+J4,WIND,RJ12_Amphenol_54601,172.83,-81.23,180.0,top
+J5,RAIN 1,RJ12_Amphenol_54601,156.83,-81.23,180.0,top
+J6,Rain 2 Serial,RJ45_Amphenol_54602-x08_Horizontal,139.7175,-80.9,180.0,top
+J7,BME280,PinHeader_1x04_P2.54mm_Vertical,123.95,-113.28,180.0,top
+J8,DS18B20,JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,123.25,-96.5,-90.0,top
+R1,10K,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,167.575,-93.15,180.0,top
+R2,220,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,143.2,-123.1,0.0,top
+R3,4.7K,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,132.415,-92.7,180.0,top
+U1,WT32_ETH01,WT32_ETH01,157.10968,-107.75612,90.0,top
+U2,L7805,TO-220-3_Vertical,150.8,-132.145,180.0,top
