@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XBee_THT
+D Through-hole XBee radio module
+K zigbee xbee rf module
+F https://www.digi.com/resources/documentation/digidocs/pdfs/90001543.pdf
+$ENDCMP
+#
+#End Doc Library
