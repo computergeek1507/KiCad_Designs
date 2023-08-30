@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "heltec_wifi_lora_v1")(type "Legacy")(uri "${KIPRJMOD}/libraries/Heltec_wifi_LoRa_V1/heltec_wifi_lora_v1.lib")(options "")(descr ""))
+  (lib (name "keypad")(type "KiCad")(uri "${KIPRJMOD}/libraries/keypad.kicad_sym")(options "")(descr ""))
+)
