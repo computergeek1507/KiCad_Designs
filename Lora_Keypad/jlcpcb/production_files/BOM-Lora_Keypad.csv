@@ -1,3 +1,4 @@
 Comment,Designator,Footprint,LCSC
 ~,U2,3x4_keypad,
 Heltec_Wifi_LoRa_V1,U1,Heltec_WiFi_LoRa_V2,
+Debug,J1,PinHeader_1x06_P2.54mm_Vertical,

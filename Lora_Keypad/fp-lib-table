@@ -3,4 +3,5 @@
   (lib (name "Heltec_wifi_LoRa_V1")(type "KiCad")(uri "${KIPRJMOD}/libraries/Heltec_wifi_LoRa_V1")(options "")(descr ""))
   (lib (name "Heltec_wifi_LoRa_v2")(type "KiCad")(uri "${KIPRJMOD}/libraries/Heltec_wifi_LoRa_v2")(options "")(descr ""))
   (lib (name "keypad")(type "KiCad")(uri "${KIPRJMOD}/libraries/keypad.pretty")(options "")(descr ""))
+  (lib (name "Scotts")(type "KiCad")(uri "${KIPRJMOD}/libraries/Scotts.pretty")(options "")(descr ""))
 )
