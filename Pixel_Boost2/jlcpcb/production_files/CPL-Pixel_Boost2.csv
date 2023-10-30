@@ -1,0 +1,8 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,1uF,R_0603_1608Metric,146.9,-111.0,-90.0,top
+C2,2.2uF,R_0603_1608Metric,154.02,-109.305,-90.0,top
+C3,0.1uF,R_0603_1608Metric,153.0,-115.4,90.0,top
+R1,33,R_0603_1608Metric,146.8,-115.4,-90.0,top
+R2,33,R_0603_1608Metric,155.71,-115.55,90.0,top
+U1,MCP1703A-SOT89,SOT-89-3,150.4,-109.985,180.0,top
+U3,74LVC2G14,SOT-23-6,149.8,-116.2,0.0,top
