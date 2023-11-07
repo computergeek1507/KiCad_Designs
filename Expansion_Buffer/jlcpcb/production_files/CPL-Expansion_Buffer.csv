@@ -1,0 +1,18 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+J2,In,IDC-Header_2x20_P2.54mm_Vertical,97.5525,-96.75,0.0,top
+R1,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,105.0,-77.7,180.0,top
+R2,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,105.0,-80.3,180.0,top
+R3,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,105.0,-82.8,180.0,top
+R4,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,105.0,-85.3,180.0,top
+R5,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,105.0,-87.9,180.0,top
+R6,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,105.0,-90.4,180.0,top
+R7,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,105.0,-93.0,180.0,top
+R8,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,105.0,-95.4,180.0,top
+R9,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,105.0,-98.0,180.0,top
+R10,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,105.0,-100.6,180.0,top
+R11,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,105.0,-103.1,180.0,top
+R12,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,105.0,-105.6,180.0,top
+R13,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,105.0,-111.2,0.0,top
+R14,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,105.0,-109.2,180.0,top
+R15,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,105.0,-113.3,180.0,top
+R16,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,105.0,-115.8,180.0,top
