@@ -3925,7 +3925,7 @@
       (net 4 "+3.3V") (pinfunction "Pin_3") (pintype "passive") (tstamp f4c5851c-77e2-49ce-bf53-29bff86df8ab))
     (pad "4" thru_hole circle (at -3.8 0 270) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 2 "GND") (pinfunction "Pin_4") (pintype "passive") (tstamp 8f5c8d49-09e1-4041-855f-8e9d617f4a8e))
-    (model "${KIPRJMOD}/../libraries/3D_Models/OLED-128x64-0.96.step"
+    (model "${KIPRJMOD}/lib/OLED-128x64-0.96.step"
       (offset (xyz 34.3 -7.6 4))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3998,7 +3998,7 @@
       (net 2 "GND") (pinfunction "2") (pintype "passive") (tstamp a962ea9e-3010-45af-bc0f-985bfc89914f))
     (pad "2" smd rect (at 3.975 -2.25 90) (size 1.55 1.3) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 2 "GND") (pinfunction "2") (pintype "passive") (tstamp 1d1c726e-5b7d-424f-846a-b7b378077355))
-    (model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_PUSH_6mm_H9.5mm.wrl"
+    (model "${KIPRJMOD}/lib/Tactal Switch - SMD (6mmx 6mmx 6mm) - Marked.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
