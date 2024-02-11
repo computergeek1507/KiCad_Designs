@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Scotts")(type "KiCad")(uri "${KIPRJMOD}/lib/Scotts.pretty")(options "")(descr ""))
+  (lib (name "tiny2040")(type "KiCad")(uri "${KIPRJMOD}/lib/tiny2040.pretty")(options "")(descr "")(disabled))
+  (lib (name "RP2040-Tiny")(type "KiCad")(uri "${KIPRJMOD}/lib/RP2040-Tiny.pretty")(options "")(descr "")(disabled))
+  (lib (name "mcu")(type "KiCad")(uri "${KIPRJMOD}/lib/mcu.pretty")(options "")(descr ""))
+)
