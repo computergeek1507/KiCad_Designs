@@ -1,5 +1,5 @@
 Comment,Designator,Footprint,LCSC
-0.1uF,"C1,C2,C5",C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C14663
+0.1uF,"C1,C5,C6",C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C14663
 10uF,"C3,C4",C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C15850
 OLED,J3,OLED-SSD1306-128X64-I2C-THT_2HOLE,C225501
 33ohm,R1,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C23140
