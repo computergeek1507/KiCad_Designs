@@ -5,6 +5,12 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "Expansion Buffer")
+    (date "2023-11-08")
+    (rev "v1")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)

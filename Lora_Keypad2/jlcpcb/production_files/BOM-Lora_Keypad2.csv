@@ -1,8 +1,2 @@
 Comment,Designator,Footprint,LCSC
 4.7K,"R1,R2",R_0603_1608Metric,C23162
-XBee_THT,A2,XBEE,
-~,U1,3x4_keypad,
-OLED Conn,J1,OLED-SSD1306-128X64-I2C-THT_2HOLE,
-Adafruit_Feather,A1,Adafruit_Feather,
-4.7K,R4,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
-4.7K,R3,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,

@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Expansion Buffer")
+    (date "2023-11-08")
+    (rev "v1")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_02x20_Odd_Even" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 1.27 25.4 0)

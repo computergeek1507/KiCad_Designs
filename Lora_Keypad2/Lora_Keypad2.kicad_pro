@@ -441,7 +441,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Lora_Keypad2.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
