@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Scotts")(type "KiCad")(uri "${KIPRJMOD}/libs/Scotts.pretty")(options "")(descr ""))
+)

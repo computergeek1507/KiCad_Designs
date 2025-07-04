@@ -1,0 +1,4 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,0.1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,136.05,-119.0,180.0,bottom
+J1,Kulp,2x03_Horizontal_SMD,139.4475,-113.895,0.0,top
+U1,24LC256,SOIC-8_3.9x4.9mm_P1.27mm,132.75,-115.5,90.0,bottom
