@@ -1,0 +1,5 @@
+Comment,Designator,Footprint,LCSC,Quantity
+0.1uF,C1,C_0603_1608Metric,C14663,1
+ATtiny85-20S,U1,SOIC-8W_5.3x5.3mm_P1.27mm,C615549,1
+Conn_02x04_Top_Bottom,J1,PinSocket_2x04_P2.54mm_Horizontal_SMD,,1
+PJ-320B,J2,BOOMELE_PJ-320B,,1

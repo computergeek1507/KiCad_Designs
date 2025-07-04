@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PJ-320B")(type "KiCad")(uri "${KIPRJMOD}/lib/PJ-320B/PJ-320B.kicad_sym")(options "")(descr ""))
+  (lib (name "CH32V003")(type "KiCad")(uri "${KIPRJMOD}/lib/ch32/CH32V003.kicad_sym")(options "")(descr ""))
+  (lib (name "SJ-3524-SMT-PI")(type "KiCad")(uri "${KIPRJMOD}/lib/SJ_3524_SMT_TR_PI/SJ-3524-SMT-PI.kicad_sym")(options "")(descr ""))
+)

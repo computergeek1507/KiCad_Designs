@@ -1,0 +1,5 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,0.1uF,C_0603_1608Metric,141.0,-112.75,0.0,bottom
+J1,Conn_02x04_Top_Bottom,PinSocket_2x04_P2.54mm_Horizontal_SMD,145.0,-109.01,0.0,top
+J2,PJ-320B,BOOMELE_PJ-320B,134.2,-109.095,0.0,top
+U1,ATtiny85-20S,SOIC-8W_5.3x5.3mm_P1.27mm,137.85,-108.75,90.0,bottom

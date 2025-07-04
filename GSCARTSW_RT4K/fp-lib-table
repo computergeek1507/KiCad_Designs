@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PJ-320B")(type "KiCad")(uri "${KIPRJMOD}/lib/PJ-320B")(options "")(descr ""))
+  (lib (name "scott")(type "KiCad")(uri "${KIPRJMOD}/lib/scott.pretty")(options "")(descr ""))
+  (lib (name "SJ_3524_SMT_TR_PI")(type "KiCad")(uri "${KIPRJMOD}/lib/SJ_3524_SMT_TR_PI")(options "")(descr ""))
+)
