@@ -1,7 +1,7 @@
 (footprint "XIAO-ESP32-C6-DIP"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.125 -10.25 0)
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8f4fc10c-2540-4ba7-9be3-30f132330a85")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -217,7 +207,7 @@
 			(width 0.5)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "1b9c22f7-f19d-4572-be63-065c1e034c25")
 	)
@@ -228,7 +218,7 @@
 			(width 0.5)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "d523b867-b930-4152-a585-fb2991113352")
 	)
@@ -239,7 +229,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "b53697bc-d105-40e2-af66-708b16a7f26c")
 	)
@@ -250,7 +240,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "a45a327e-f036-4877-8d89-39f4f4b0c715")
 	)
@@ -261,13 +251,13 @@
 			(width 0.5)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
 		(uuid "f1bda1b0-c6a9-4930-b2ed-d175257d4cca")
 	)
 	(pad "1" smd roundrect
-		(at 7.62 -8.455 90)
-		(size 2.432 1.524)
+		(at 7.62 -8.6195 90)
+		(size 2.761 1.524)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 45)
@@ -282,8 +272,8 @@
 		(uuid "f2fffd4f-460c-4b4d-b954-811e935ed1d6")
 	)
 	(pad "2" smd roundrect
-		(at 5.08 -8.455 90)
-		(size 2.432 1.524)
+		(at 5.08 -8.6195 90)
+		(size 2.761 1.524)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 45)
@@ -298,8 +288,8 @@
 		(uuid "4732cc3f-e641-4870-a9b3-ae13729c7bba")
 	)
 	(pad "3" smd roundrect
-		(at 2.54 -8.455 90)
-		(size 2.432 1.524)
+		(at 2.54 -8.6195 90)
+		(size 2.761 1.524)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 45)
@@ -314,8 +304,8 @@
 		(uuid "0cef5e55-d8ff-4394-9cc1-cc318608b0d9")
 	)
 	(pad "4" smd roundrect
-		(at 0 -8.455 90)
-		(size 2.432 1.524)
+		(at 0 -8.6195 90)
+		(size 2.761 1.524)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 45)
@@ -330,8 +320,8 @@
 		(uuid "200b8da4-9395-48a5-b7ac-92a6a147c215")
 	)
 	(pad "5" smd roundrect
-		(at -2.54 -8.455 90)
-		(size 2.432 1.524)
+		(at -2.54 -8.6195 90)
+		(size 2.761 1.524)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 45)
@@ -346,8 +336,8 @@
 		(uuid "2b50ccce-3634-47d1-bf7d-a3db4f3f9a9f")
 	)
 	(pad "6" smd roundrect
-		(at -5.08 -8.455 90)
-		(size 2.432 1.524)
+		(at -5.08 -8.6195 90)
+		(size 2.761 1.524)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 45)
@@ -362,8 +352,8 @@
 		(uuid "7636de9d-d8e5-49c9-9fff-0cd76515690d")
 	)
 	(pad "7" smd roundrect
-		(at -7.62 -8.455 90)
-		(size 2.432 1.524)
+		(at -7.62 -8.6195 90)
+		(size 2.761 1.524)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 45)
@@ -387,7 +377,7 @@
 	)
 	(pad "8" smd roundrect
 		(at -7.62 8.455 270)
-		(size 2.432 1.524)
+		(size 2.761 1.524)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 45)
@@ -403,7 +393,7 @@
 	)
 	(pad "9" smd roundrect
 		(at -5.08 8.455 270)
-		(size 2.432 1.524)
+		(size 2.761 1.524)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 45)
@@ -419,7 +409,7 @@
 	)
 	(pad "10" smd roundrect
 		(at -2.54 8.455 270)
-		(size 2.432 1.524)
+		(size 2.761 1.524)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 45)
@@ -435,7 +425,7 @@
 	)
 	(pad "11" smd roundrect
 		(at 0 8.455 270)
-		(size 2.432 1.524)
+		(size 2.761 1.524)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 45)
@@ -451,7 +441,7 @@
 	)
 	(pad "12" smd roundrect
 		(at 2.54 8.455 270)
-		(size 2.432 1.524)
+		(size 2.761 1.524)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 45)
@@ -467,7 +457,7 @@
 	)
 	(pad "13" smd roundrect
 		(at 5.08 8.455 270)
-		(size 2.432 1.524)
+		(size 2.761 1.524)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 45)
@@ -483,12 +473,13 @@
 	)
 	(pad "14" smd roundrect
 		(at 7.62 8.455 270)
-		(size 2.432 1.524)
+		(size 2.761 1.524)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 45)
 		(uuid "6b725fd4-d6f0-46bf-b3e0-7ec07cc05622")
 	)
+	(embedded_fonts no)
 	(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/XIAO-nRF52840 v15.step"
 		(hide yes)
 		(offset
